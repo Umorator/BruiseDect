@@ -1,0 +1,14 @@
+{
+  "strategy": "strict",
+  "aug_root": "P:/BruiseDet_Repo/data/augmented",
+  "project_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN",
+  "out_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN",
+  "batch": 8,
+  "workers": 16,
+  "epochs": 30,
+  "lr": 0.001,
+  "lrf": 0.01,
+  "use_dropout": true,
+  "dropout_prob": 0.3,
+  "resize_number": 640
+}

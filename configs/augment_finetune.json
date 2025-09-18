@@ -1,0 +1,14 @@
+{
+  "strategy": "strict",
+  "base_aug_root_template": "P:/BruiseDet_Repo/data/augmented/{strategy}",
+  "out_aug_ft_template": "P:/BruiseDet_Repo/data/augmented_ft/{strategy}",
+
+  "extra_train_dir": "P:/BruiseDet_Repo/data/raw_data/Roboflow_data",
+
+  "times_extra": 1,
+  "resize": false,
+  "size_number": 640,
+  "mosaic_percentage": 10,
+  "class_id": 0,
+  "yaml_class_names": ["hematoma"]
+}

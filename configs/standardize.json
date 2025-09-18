@@ -1,0 +1,35 @@
+{
+  "sources": [
+    "P:/Bruise_Dect/Standard annotation/Katharina/all",
+    "P:/Bruise_Dect/Standard annotation/Lukas/all_labels",
+    "P:/Bruise_Dect/Standard annotation/Yasmeen/all_labels"
+  ],
+  "images_roots": [
+    "P:/Bruise_Dect/Standard annotation/Katharina/all"
+  ],
+  "output_root": "P:/BruiseDet_Repo/data/raw_data/Standards",
+  "options": {
+    "write_drawn": true,
+    "copy_uncommon_images": true,
+    "class_id": 0,
+    "valid_exts": [".jpg", ".jpeg", ".png"]
+  },
+  "params": {
+    "strict": {
+      "iou_threshold": 0.05,
+      "containment_threshold": 0.8,
+      "min_overlap_ratio": 0.20,
+      "nms_iou": 0.20
+    },
+    "smoothed": {
+      "iou_threshold": 0.05,
+      "min_overlap_ratio": 0.20,
+      "nms_iou": 0.20
+    },
+    "loose": {
+      "iou_threshold": 0.05,
+      "containment_threshold_full": 1.0,
+      "nms_iou": 0.20
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "strategy": "strict",
+
+  "aug_root": "P:/BruiseDet_Repo/data/augmented_ft",
+  "project_dir": "P:/BruiseDet_Repo/outputs/training_ft/{strategy}/FRCNN",
+  "out_dir": "P:/BruiseDet_Repo/outputs/training_ft/{strategy}/FRCNN",
+
+  "resize_number": 640,
+  "batch": 4,
+  "workers": 16,
+
+  "epochs": 15,
+  "lr": 0.0003,
+  "lrf": 0.01,
+
+  "use_dropout": false,
+  "pretrained": true,
+  "trainable_backbone_layers": 2,
+
+  "init_from_prev": true,
+  "prev_weights_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN/k{fold}/best_model.pth",
+
+  "device": null
+}

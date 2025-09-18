@@ -1,0 +1,18 @@
+{
+  "strategies": ["Strict", "Smoothed", "Loose"],
+  "models": ["YOLO", "FRCNN", "RetinaNet"],
+
+  "aug_root_template": "P:/BruiseDet_Repo/data/augmented/{strategy}",
+  "pred_root_template": "P:/BruiseDet_Repo/outputs/predictions/{strategy}/{model}",
+  "out_dir": "P:/BruiseDet_Repo/outputs/eval",
+
+  "folds": null,
+  "iou_threshold": 0.5,
+  "resize_number": 640,
+
+  "model_norm": {
+    "YOLO": "orig",
+    "FRCNN": "resized",
+    "RetinaNet": "resized"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "strategy": "strict",
+
+  "weights_dir_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
+  "aug_data_root": "P:/BruiseDet_Repo/data/augmented/{strategy}",
+  "out_dir_template": "P:/BruiseDet_Repo/outputs/predictions/{strategy}/RetinaNet",
+
+  "folds": null,
+
+  "score_threshold": 0.05,
+  "nms": 0.15,
+  "ioa_threshold": 0.5,
+  "resize_number": 640,
+  "device": null
+}

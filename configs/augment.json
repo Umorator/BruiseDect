@@ -1,0 +1,19 @@
+{
+  "input_dir_template": "P:/BruiseDet_Repo/data/raw_data/Standards/{strategy}",
+  "strategy": "smoothed",
+  "output_dir_name": "P:/BruiseDet_Repo/data/augmented/{strategy}",
+
+  "mode": "kfold",
+  "kfold": 5,
+  "times": 1,
+  "resize": false,
+  "size_number": 640,
+  "mosaic_percentage": 10,
+  "class_id": 0,
+  "yaml_class_names": ["hematoma"],
+
+  "extra_images_dir": ["P:/BruiseDet_Repo/data/raw_data/Body_parts"],
+
+  "split_spec": "P:/BruiseDet_Repo/data/augmented/master_split.json",
+  "mosaic_seed_base": 12345
+}

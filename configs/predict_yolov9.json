@@ -1,0 +1,13 @@
+{
+  "strategy": "strict",
+  "aug_root": "P:/BruiseDet_Repo/data/augmented",
+  "train_project_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/yolov9",
+  "pred_out_template": "P:/BruiseDet_Repo/outputs/predictions/{strategy}/yolov9",
+
+  "conf": 0.05,
+  "iou": 0.15,
+  "imgsz": 640,
+  "batch": 16,
+  "ioa_threshold": 0.5,
+  "device": null
+}

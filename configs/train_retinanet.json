@@ -1,0 +1,19 @@
+{
+  "strategy": "strict",
+  "aug_root": "P:/BruiseDet_Repo/data/augmented",
+  "project_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
+  "out_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
+
+  "resize_number": 640,
+  "batch": 8,
+  "workers": 16,
+  "threads": 0,
+
+  "epochs": 30,
+  "lr": 0.001,
+  "lrf": 0.01,
+
+  "dropout_prob": 0.3,
+  "pretrained": true,
+  "trainable_backbone_layers": 0
+}
