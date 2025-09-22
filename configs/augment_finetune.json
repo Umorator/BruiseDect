@@ -1,9 +1,9 @@
 {
   "strategy": "strict",
-  "base_aug_root_template": "P:/BruiseDet_Repo/data/augmented/{strategy}",
-  "out_aug_ft_template": "P:/BruiseDet_Repo/data/augmented_ft/{strategy}",
+  "base_aug_root_template": "data/augmented/{strategy}",
+  "out_aug_ft_template": "data/augmented_ft/{strategy}",
 
-  "extra_train_dir": "P:/BruiseDet_Repo/data/raw_data/Roboflow_data",
+  "extra_train_dir": "data/raw_data/Roboflow_data",
 
   "times_extra": 1,
   "resize": false,

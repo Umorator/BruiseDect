@@ -1,9 +1,9 @@
 {
   "strategy": "strict",
 
-  "weights_dir_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
-  "aug_data_root": "P:/BruiseDet_Repo/data/augmented/{strategy}",
-  "out_dir_template": "P:/BruiseDet_Repo/outputs/predictions/{strategy}/RetinaNet",
+  "weights_dir_template": "outputs/training/{strategy}/RetinaNet",
+  "aug_data_root": "data/augmented/{strategy}",
+  "out_dir_template": "outputs/predictions/{strategy}/RetinaNet",
 
   "folds": null,
 

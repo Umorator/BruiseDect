@@ -1,9 +1,9 @@
 {
   "strategy": "strict",
 
-  "aug_root": "P:/BruiseDet_Repo/data/augmented_ft",
-  "project_dir": "P:/BruiseDet_Repo/outputs/training_ft/{strategy}/RetinaNet",
-  "out_dir": "P:/BruiseDet_Repo/outputs/training_ft/{strategy}/RetinaNet",
+  "aug_root": "data/augmented_ft",
+  "project_dir": "outputs/training_ft/{strategy}/RetinaNet",
+  "out_dir": "outputs/training_ft/{strategy}/RetinaNet",
 
   "resize_number": 640,
   "batch": 4,
@@ -19,7 +19,7 @@
   "trainable_backbone_layers": 2,
 
   "init_from_prev": true,
-  "prev_weights_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet/k{fold}/best_model.pth",
+  "prev_weights_template": "outputs/training/{strategy}/RetinaNet/k{fold}/best_model.pth",
 
   "device": null
 }

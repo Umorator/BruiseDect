@@ -1,7 +1,7 @@
 {
   "strategy": "strict",
-  "yaml_dir_template": "P:/BruiseDet_Repo/data/augmented/{strategy}/yaml_files",
-  "project_dir_template": "P:/BruiseDet_Repo/outputs/training/{strategy}/yolov9",
+  "yaml_dir_template": "data/augmented/{strategy}/yaml_files",
+  "project_dir_template": "outputs/training/{strategy}/yolov9",
 
   "weights": "yolov9m.pt",
   "epochs": 30,
@@ -15,6 +15,5 @@
   "cache": true,
   "dropout": 0.3,
   "device": null,
-  "ultra_cfg": "P:/BruiseDet_Repo/configs/Yolov9_config.yaml"
-
+  "ultra_cfg": "configs/Yolov9_config.yaml"
 }

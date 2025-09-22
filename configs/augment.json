@@ -1,7 +1,7 @@
 {
-  "input_dir_template": "P:/BruiseDet_Repo/data/raw_data/Standards/{strategy}",
+  "input_dir_template": "data/raw_data/Standards/{strategy}",
   "strategy": "smoothed",
-  "output_dir_name": "P:/BruiseDet_Repo/data/augmented/{strategy}",
+  "output_dir_name": "data/augmented/{strategy}",
 
   "mode": "kfold",
   "kfold": 5,
@@ -12,8 +12,8 @@
   "class_id": 0,
   "yaml_class_names": ["hematoma"],
 
-  "extra_images_dir": ["P:/BruiseDet_Repo/data/raw_data/Body_parts"],
+  "extra_images_dir": ["data/raw_data/Body_parts"],
 
-  "split_spec": "P:/BruiseDet_Repo/data/augmented/master_split.json",
+  "split_spec": "data/augmented/master_split.json",
   "mosaic_seed_base": 12345
 }

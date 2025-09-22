@@ -1,8 +1,8 @@
 {
   "strategy": "strict",
-  "yaml_dir_template": "P:/BruiseDet_Repo/data/augmented/{strategy}/yaml_files",
-  "project_dir_template": "P:/BruiseDet_Repo/outputs/training_ft/{strategy}/yolov9",
-  "pretrained_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/yolov9",
+  "yaml_dir_template": "data/augmented/{strategy}/yaml_files",
+  "project_dir_template": "outputs/training_ft/{strategy}/yolov9",
+  "pretrained_dir": "outputs/training/{strategy}/yolov9",
 
   "weights": "yolov9m.pt",
   "epochs": 15,
@@ -18,5 +18,5 @@
   "use_dropout": false,
   "device": null,
   "training_type": "fine_tune",
-  "ultra_cfg": "P:/BruiseDet_Repo/configs/Yolov9_config.yaml"
+  "ultra_cfg": "configs/Yolov9_config.yaml"
 }

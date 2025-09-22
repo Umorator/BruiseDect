@@ -1,8 +1,8 @@
 {
   "strategy": "strict",
-  "aug_root": "P:/BruiseDet_Repo/data/augmented",
-  "project_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN",
-  "out_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN",
+  "aug_root": "data/augmented",
+  "project_dir": "outputs/training/{strategy}/FRCNN",
+  "out_dir": "outputs/training/{strategy}/FRCNN",
   "batch": 8,
   "workers": 16,
   "epochs": 30,

@@ -1,8 +1,8 @@
 {
   "strategy": "strict",
-  "aug_root": "P:/BruiseDet_Repo/data/augmented",
-  "project_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
-  "out_dir": "P:/BruiseDet_Repo/outputs/training/{strategy}/RetinaNet",
+  "aug_root": "data/augmented",
+  "project_dir": "outputs/training/{strategy}/RetinaNet",
+  "out_dir": "outputs/training/{strategy}/RetinaNet",
 
   "resize_number": 640,
   "batch": 8,
