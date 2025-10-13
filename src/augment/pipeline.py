@@ -164,8 +164,15 @@ def _process_one(args):
 
 # ----- public API -----
 def _resolve_out_base(input_dir, output_dir_name):
-    # If output_dir_name is absolute, use it directly; else join under input_dir
-    return output_dir_name if os.path.isabs(output_dir_name) else os.path.join(input_dir, output_dir_name)
+    # If it's absolute (like C:/ or /mnt/...), use as-is
+    if os.path.isabs(output_dir_name):
+        return output_dir_name
+    # If it starts with "data/" (or whatever top-level dir you use), treat as project-relative
+    if output_dir_name.startswith("data/"):
+        return str(Path(output_dir_name))
+    # Otherwise, keep current behavior (relative to input_dir)
+    return os.path.join(input_dir, output_dir_name)
+
 
 def split_and_move_data(
     input_dir, output_dir_name, ratios, times,
@@ -361,8 +368,9 @@ def split_and_move_data_kfold(
         )
 
         # Write YOLO data YAML (POSIX paths + inline names)
-        train_path = Path(fold_dir, "train", "images").as_posix()
-        val_path   = Path(fold_dir, "val", "images").as_posix()
+        train_path = (Path(fold_dir) / "train" / "images").resolve().as_posix()
+        val_path   = (Path(fold_dir) / "val" / "images").resolve().as_posix()
+
         data = {
             "train": train_path,
             "val":   val_path,

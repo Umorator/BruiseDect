@@ -16,6 +16,9 @@ class CocoEvaluator:
         if not isinstance(iou_types, (list, tuple)):
             raise TypeError(f"This constructor expects iou_types of type list or tuple, instead  got {type(iou_types)}")
         coco_gt = copy.deepcopy(coco_gt)
+        
+        # Ensure the COCO dataset has the required structure
+        self._ensure_coco_format(coco_gt)
         self.coco_gt = coco_gt
 
         self.iou_types = iou_types
@@ -25,6 +28,51 @@ class CocoEvaluator:
 
         self.img_ids = []
         self.eval_imgs = {k: [] for k in iou_types}
+
+    def _ensure_coco_format(self, coco_dataset):
+        """Ensure the dataset has all required COCO format fields"""
+        # Handle both COCO objects and dictionaries
+        if hasattr(coco_dataset, 'dataset'):
+            # It's a COCO object, check its dataset attribute
+            dataset_dict = coco_dataset.dataset
+        else:
+            # It's a dictionary
+            dataset_dict = coco_dataset
+        
+        # Add missing 'info' field if not present
+        if 'info' not in dataset_dict:
+            dataset_dict['info'] = {
+                'description': 'IMPACT_AI Dataset',
+                'url': '',
+                'version': '1.0',
+                'year': 2024,
+                'contributor': '',
+                'date_created': '2024'
+            }
+        
+        # Add missing 'licenses' field if not present
+        if 'licenses' not in dataset_dict:
+            dataset_dict['licenses'] = [{
+                'url': '',
+                'id': 1,
+                'name': 'Unknown'
+            }]
+        
+        # Ensure 'images' field exists
+        if 'images' not in dataset_dict:
+            dataset_dict['images'] = []
+        
+        # Ensure 'annotations' field exists
+        if 'annotations' not in dataset_dict:
+            dataset_dict['annotations'] = []
+        
+        # Ensure 'categories' field exists with at least one category
+        if 'categories' not in dataset_dict or not dataset_dict['categories']:
+            dataset_dict['categories'] = [{
+                'id': 1,
+                'name': 'object',
+                'supercategory': 'object'
+            }]
 
     def update(self, predictions):
         img_ids = list(np.unique(list(predictions.keys())))

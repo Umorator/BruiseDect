@@ -111,10 +111,10 @@ def main(argv=None):
     if not cfg.get("ultra_project_dir"):
         if training_type == "fine_tune":
             # Fine-tuning output directory
-            cfg["ultra_project_dir"] = fr"P:/BruiseDet_Repo/outputs/training_ft/{cap_strategy}/yolov9"
+            cfg["ultra_project_dir"] = fr"outputs/training_ft/{cap_strategy}/yolov9"
         else:
             # Regular training output directory
-            cfg["ultra_project_dir"] = fr"P:/BruiseDet_Repo/outputs/training/{cap_strategy}/yolov9"
+            cfg["ultra_project_dir"] = fr"outputs/training/{cap_strategy}/yolov9"
 
     # out_dir: summary files; default alongside the runs
     if not cfg.get("out_dir"):

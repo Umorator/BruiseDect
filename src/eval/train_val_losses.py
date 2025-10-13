@@ -35,12 +35,13 @@ def extract_tensor_value(tensor_string):
 def load_model_data(base_path, model, fold, strategy):
     """Load training and validation loss data for a specific model, fold, and strategy."""
     try:
-        fold_dir = f"Kfold_{fold}" if model in ['FRCNN', 'RetinaNet'] else f"k{fold}"
+        fold_dir = f"K{fold}" if model in ['FRCNN', 'RetinaNet'] else f"k{fold}"
         strategy_path = Path(base_path) / strategy / model / fold_dir
         
         if model in ['FRCNN', 'RetinaNet']:
             # Load training data
             train_path = strategy_path / 'average_training_losses.csv'
+            #print(train_path)
             if not train_path.exists():
                 return np.array([]), np.array([])
                 
@@ -66,27 +67,12 @@ def load_model_data(base_path, model, fold, strategy):
                         val_loss = val_df[col].apply(extract_tensor_value).dropna().values
                         break
                 
-                if len(val_loss) == 0:
-                    # If specific validation column not found, try any column that might contain tensor values
-                    for col in val_df.columns:
-                        if col.lower() != 'epoch':
-                            val_loss = val_df[col].apply(extract_tensor_value).dropna().values
-                            if len(val_loss) > 0:
-                                break
-            
             else:  # RetinaNet
                 # For RetinaNet: Use regular numeric conversion
                 for col in val_df.columns:
                     if col.lower() in ['validation loss', 'val_loss', 'validation_loss', 'val loss']:
                         val_loss = pd.to_numeric(val_df[col], errors='coerce').dropna().values
                         break
-                
-                if len(val_loss) == 0:
-                    # If specific validation column not found, try any numeric column
-                    for col in val_df.columns:
-                        if col.lower() != 'epoch' and pd.api.types.is_numeric_dtype(val_df[col]):
-                            val_loss = val_df[col].dropna().values
-                            break
             
             # For RetinaNet, skip epoch 0 if it's an outlier
             if model == 'RetinaNet':
@@ -171,7 +157,7 @@ def process_training_data(base_path, strategies, models, folds):
 # ----------------------------- Plotting -----------------------------
 
 def plot_loss_curves_with_std(curves_data, out_path: Path, title: str = "Training and Validation Losses"):
-    """Plot loss curves with standard deviation."""
+    """Plot loss curves with standard deviation using unified color scheme."""
     ensure_dir(out_path.parent)
     
     num_strategies = len(curves_data)
@@ -181,14 +167,20 @@ def plot_loss_curves_with_std(curves_data, out_path: Path, title: str = "Trainin
     
     fig.suptitle(title, fontsize=16, fontweight='bold', y=0.98)
     
-    # Colors for training and validation
-    train_color = '#1f77b4'  # Blue
-    val_color = '#d62728'    # Red
+    # Unified color palette matching the PR curve function
+    model_colors = {
+        'yolov9': '#1f77b4',      # blue
+        'FRCNN': '#ff7f0e',       # orange
+        'RetinaNet': '#2ca02c'    # green
+    }
     
     for idx, (strategy, model_data) in enumerate(curves_data.items()):
         ax = axes[idx]
         
         for model_label, (train_losses, val_losses) in model_data.items():
+            # Get model color (use default if model not in palette)
+            color = model_colors.get(model_label, '#000000')
+            
             # Plot training loss
             if train_losses:
                 min_length = min(len(loss) for loss in train_losses)
@@ -199,9 +191,10 @@ def plot_loss_curves_with_std(curves_data, out_path: Path, title: str = "Trainin
                 
                 epochs = np.arange(1, min_length + 1)
                 
-                ax.plot(epochs, train_mean, label=f'{model_label} Train', color=train_color, linewidth=2.5)
+                ax.plot(epochs, train_mean, label=f'{model_label} Train', 
+                       color=color, linewidth=2.5, linestyle='-')
                 ax.fill_between(epochs, train_mean - train_std, train_mean + train_std, 
-                              alpha=0.3, color=train_color, label=f'{model_label} Train ±1 SD')
+                              alpha=0.3, color=color)
             
             # Plot validation loss
             if val_losses:
@@ -213,10 +206,10 @@ def plot_loss_curves_with_std(curves_data, out_path: Path, title: str = "Trainin
                 
                 epochs_val = np.arange(1, min_length_val + 1)
                 
-                ax.plot(epochs_val, val_mean, label=f'{model_label} Val', color=val_color, 
-                       linewidth=2.5, linestyle='--')
+                ax.plot(epochs_val, val_mean, label=f'{model_label} Val', 
+                       color=color, linewidth=2.5, linestyle='--')
                 ax.fill_between(epochs_val, val_mean - val_std, val_mean + val_std, 
-                              alpha=0.3, color=val_color, label=f'{model_label} Val ±1 SD')
+                              alpha=0.3, color=color)
         
         ax.set_title(f'{strategy}', fontsize=14, fontweight='bold')
         ax.set_xlabel('Epoch', fontweight='bold')
@@ -225,7 +218,11 @@ def plot_loss_curves_with_std(curves_data, out_path: Path, title: str = "Trainin
         ax.grid(True, alpha=0.3)
         ax.set_xlim(0, 31)
     
+    # Add SD explanation to the figure
+    fig.text(0.5, 0.01, "Shaded areas represent ±1 standard deviation", 
+             ha='center', fontsize=10, style='italic')
+    
     plt.tight_layout()
-    plt.subplots_adjust(top=0.9)
+    plt.subplots_adjust(top=0.9, bottom=0.08)  # Adjust for the SD text
     plt.savefig(out_path, dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()

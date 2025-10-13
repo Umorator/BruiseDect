@@ -10,5 +10,6 @@
   "lrf": 0.01,
   "use_dropout": true,
   "dropout_prob": 0.3,
+  "weight_decay": 0.01,
   "resize_number": 640
 }

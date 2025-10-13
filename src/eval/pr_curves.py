@@ -259,8 +259,29 @@ def plot_pr_curves_with_std(curves_data, out_path: Path, title: str = "Precision
         P_mean_sorted = np.nan_to_num(P_mean[order], nan=0)
         P_std_sorted = np.nan_to_num(P_std[order], nan=0)
         
+        # Calculate Average Precision (AP) using trapezoidal integration
+        # Remove NaN values for AP calculation
+        valid_mask = ~np.isnan(P_mean_sorted) & ~np.isnan(R_sorted)
+        if np.any(valid_mask):
+            R_valid = R_sorted[valid_mask]
+            P_valid = P_mean_sorted[valid_mask]
+            # Ensure recall is sorted in ascending order for integration
+            sort_idx = np.argsort(R_valid)
+            R_sorted_valid = R_valid[sort_idx]
+            P_sorted_valid = P_valid[sort_idx]
+            # Calculate AP using trapezoidal rule
+            ap = np.trapz(P_sorted_valid, R_sorted_valid)
+        else:
+            ap = 0.0
+        
+        # Calculate mean standard deviation for the curve
+        mean_std = np.nanmean(P_std_sorted)
+        
+        # Create enhanced label with AP value
+        enhanced_label = f"{label} (AP: {ap:.3f} ± {mean_std:.3f})"
+        
         # Plot mean line
-        plt.plot(R_sorted, P_mean_sorted, label=label, linewidth=2.5)
+        plt.plot(R_sorted, P_mean_sorted, label=enhanced_label, linewidth=2.5)
         
         # Plot confidence interval (mean ± 1 std)
         plt.fill_between(R_sorted, 
@@ -292,7 +313,7 @@ def plot_pr_curves_all_strategies_with_std(curves_data, out_path: Path, title: s
     
     # Define color palette for models and linestyles for strategies
     model_colors = {
-        'YOLO': '#1f77b4',      # blue
+        'yolov9': '#1f77b4',      # blue
         'FRCNN': '#ff7f0e',     # orange
         'RetinaNet': '#2ca02c'  # green
     }
@@ -326,8 +347,29 @@ def plot_pr_curves_all_strategies_with_std(curves_data, out_path: Path, title: s
         P_mean_sorted = np.nan_to_num(P_mean[order], nan=0)
         P_std_sorted = np.nan_to_num(P_std[order], nan=0)
         
+        # Calculate Average Precision (AP) using trapezoidal integration
+        # Remove NaN values for AP calculation
+        valid_mask = ~np.isnan(P_mean_sorted) & ~np.isnan(R_sorted)
+        if np.any(valid_mask):
+            R_valid = R_sorted[valid_mask]
+            P_valid = P_mean_sorted[valid_mask]
+            # Ensure recall is sorted in ascending order for integration
+            sort_idx = np.argsort(R_valid)
+            R_sorted_valid = R_valid[sort_idx]
+            P_sorted_valid = P_valid[sort_idx]
+            # Calculate AP using trapezoidal rule
+            ap = np.trapz(P_sorted_valid, R_sorted_valid)
+        else:
+            ap = 0.0
+        
+        # Calculate mean standard deviation for the curve
+        mean_std = np.nanmean(P_std_sorted)
+        
+        # Create enhanced label with AP value
+        enhanced_label = f"{label} (AP: {ap:.3f} ± {mean_std:.3f})"
+        
         # Plot mean line
-        plt.plot(R_sorted, P_mean_sorted, label=label, linewidth=2.5, 
+        plt.plot(R_sorted, P_mean_sorted, label=enhanced_label, linewidth=2.5, 
                 color=color, linestyle=linestyle)
         
         # Plot confidence interval with matching color but no linestyle

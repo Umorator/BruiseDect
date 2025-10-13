@@ -1,0 +1,870 @@
+﻿ID,Case/Folder,Age,Location,Gender,Shape,Age of bruise
+RK_01,20-02795-MU,5,Oberarm,m,Unscharf begrenzt,älter
+RK_02,20-02772-MU,34,Unterarm,w,Unscharf begrenzt,älter
+RK_03,20-02772-MU,34,Unterarm,w,Unscharf begrenzt,frisch
+RK_04,20-02772-MU,34,Rücken,w,"Teils scharf, teils unscharf begrenzt",frisch
+RK_05,20-02772-MU,34,Gesäß,w,Unscharf begrenzt,frisch
+RK_06,20-03019-MU,25,Halsvorderseite,w,Unscharf begrenzt,frisch
+RK_07,20-03031-MU,10,Rücken,m,Unscharf begrenzt,älter
+RK_08,20-03035-MU,14,Oberschenkel,w,Unscharf begrenzt,älter
+RK_09,20-03090-MU,88,Unterarm,m,Scharf begrenzt,frisch
+RK_10,20-03110-MU,33,Unterarm,w,Unscharf begrenzt,älter
+RK_11,20-03110-MU,33,Unterarm,w,Unscharf begrenzt,frisch
+RK_12,20-03111-MU,36,Rücken,w,Unscharf begrenzt,älter
+RK_13,20-03164-MU,49,Unterarm,w,Unscharf begrenzt,frisch
+RK_14,20-03164-MU,49,Oberschenkel,w,Unscharf begrenzt,frisch
+RK_15,20-03413-MU,5,Unterschenkel,m,Unscharf begrenzt,frisch
+RK_16,20-03413-MU,5,Gesäß,m,Unscharf begrenzt,älter
+RK_17,20-03579-MU,33,Oberarm,w,Unscharf begrenzt,frisch
+RK_18,20-03579-MU,33,Oberarm,w,Unscharf begrenzt,frisch
+RK_19,20-03579-MU,33,Unterschenkel,w,Unscharf begrenzt,älter
+RK_20,20-03661-MU,12,Oberschenkel,m,Unscharf begrenzt,älter
+RK_21,20-03770-MU,17,Halsvorderseite,w,Unscharf begrenzt,älter
+RK_22,20-03854-MU,91,Hände,m,,
+RK_23,20-08052-MU,82,Gesicht,m,Unscharf begrenzt,älter
+RK_24,20-08052-MU,82,Bauch,m,Unscharf begrenzt,älter
+RK_25,20-08052-MU,82,Unterarm,m,Unscharf begrenzt,älter
+RK_26,20-08052-MU,82,Rücken,m,Unscharf begrenzt,älter
+RK_27,20-08052-MU,82,Halsvorderseite,m,Unscharf begrenzt,älter
+RK_28,20-08052-MU,82,Oberschenkel,m,Unscharf begrenzt,frisch
+RK_29,20-03862-MU,40,Gesäß,w,Unscharf begrenzt,älter
+RK_30,20-03890-MU,68,Oberschenkel,w,Unscharf begrenzt,frisch
+RK_31,20-03890-MU,68,Oberarm,w,Scharf begrenzt,frisch
+RK_32,20-03890-MU,68,Hände,w,,
+RK_33,20-03890-MU,68,Hände,w,,
+RK_34,20-03890-MU,68,Unterschenkel,w,Unscharf begrenzt,frisch
+RK_35,20-08376-MU,69,Oberarm,w,Unscharf begrenzt,frisch
+RK_36,20-08376-MU,69,Oberarm,w,Unscharf begrenzt,frisch
+RK_37,20-08376-MU,69,Unterarm,w,Scharf begrenzt,frisch
+RK_38,20-08376-MU,69,Hände,w,Unscharf begrenzt,frisch
+RK_39,20-08358-MU,77,Gesicht,w,Unscharf begrenzt,frisch
+RK_40,20-08358-MU,77,Oberarm,w,Unscharf begrenzt,älter
+RK_41,20-08358-MU,77,Schultern,w,Unscharf begrenzt,älter
+RK_42,20-07233-MU,68,Hände,m,Unscharf begrenzt,frisch
+RK_43,20-06438-MU,66,Oberarm,w,Unscharf begrenzt,älter
+RK_44,20-06438-MU,66,Oberarm,w,Unscharf begrenzt,älter
+RK_45,20-05074-MU,69,Unterarm,m,Unscharf begrenzt,frisch
+RK_46,20-04516-MU,69,Gesäß,w,Unscharf begrenzt,frisch
+RK_47,19-01438-MU,67,Unterschenkel,m,Unscharf begrenzt,älter
+RK_48,19-01438-MU,67,Rücken,m,Unscharf begrenzt,älter
+RK_49,19-01437-MU,71,Rücken,w,"Teils scharf, teils unscharf begrenzt",frisch
+RK_50,19-01436-MU,91,Oberschenkel,m,Unscharf begrenzt,frisch
+RK_51,21-08581-MU,2 Monate,Oberschenkel,w,Unscharf begrenzt,älter
+RK_52,21-08582-MU,3 Monate,Gesicht,m,Unscharf begrenzt,älter
+RK_53,21-00006-MU,10 Monate,Gesicht,m,Unscharf begrenzt,frisch
+RK_54,20-08071-MU,1,Schultern,m,Unscharf begrenzt,älter
+RK_55,20-07234-MU,1 Monat,Hände,w,Scharf begrenzt,frisch
+RK_56,20-07234-MU,1 Monat,Unterarm,w,Geformt,frisch
+RK_57,20-07234-MU,1 Monat,Unterschenkel,w,Geformt,frisch
+RK_58,20-07234-MU,1 Monat,Oberschenkel,w,Geformt,frisch
+RK_59,20-07234-MU,1 Monat,Unterschenkel,w,Geformt,frisch
+RK_60,20-07134-MU,1,Gesicht,w,Geformt,frisch
+RK_61,20-07134-MU,1,Gesicht,w,Geformt,frisch
+RK_62,20-06576-MU,1,Unterschenkel,m,Unscharf begrenzt,älter
+RK_63,20-06576-MU,1,Genitalien,m,Unscharf begrenzt,frisch
+RK_64,20-03920-MU,6 Monate,Gesicht,m,Geformt,frisch
+RK_65,20-03920-MU,6 Monate,Gesicht,m,Unscharf begrenzt,frisch
+RK_66,20-02682-MU,1,Oberarm,m,Unscharf begrenzt,älter
+RK_67,20-02633-MU,4 Monate,Gesicht,m,Unscharf begrenzt,älter
+RK_68,20-02633-MU,4 Monate,Gesicht,m,Unscharf begrenzt,älter
+RK_69,20-02633-MU,4 Monate,Brust,m,Unscharf begrenzt,älter
+RK_70,20-02633-MU,4 Monate,Oberschenkel,m,Unscharf begrenzt,älter
+RK_71,20-02633-MU,4 Monate,Unterschenkel,m,Unscharf begrenzt,älter
+RK_72,20-02633-MU,4 Monate,Unterarm,m,Scharf begrenzt,frisch
+RK_73,20-02494-MU,1,Behaarte Kopfhaut,m,Unscharf begrenzt,älter
+RK_74,20-02494-MU,1,Unterschenkel,m,Unscharf begrenzt,älter
+RK_75,20-02494-MU,1,Gesäß,m,Unscharf begrenzt,älter
+LB_01,23-05437-MU,10,Oberschenkel,w,Unscharf begrenzt,älter
+LB_02,23-05346-MU,20,Bauch,m,Unscharf begrenzt,älter
+LB_03,23-05061-MU,33,Schultern,w,Unscharf begrenzt,älter
+LB_04,23-05061-MU,33,Unterarm,w,Unscharf begrenzt,älter
+LB_05,23-05061-MU,33,Oberschenkel,w,Unscharf begrenzt,älter
+LB_06,23-04966-MU,40,Oberschenkel,w,Unscharf begrenzt,frisch
+LB_07,23-04965-MU,3,Oberarm,w,Unscharf begrenzt,frisch
+LB_08,23-04960-MU,8,Unterarm,w,Unscharf begrenzt,frisch
+LB_09,23-04959-MU,6,Unterschenkel,w,Unscharf begrenzt,frisch
+LB_10,23-04521-MU,46,Oberarm,m,"Teils scharf, teils unscharf begrenzt",frisch
+LB_11,22-06090-MU,1,Füße,m,Unscharf begrenzt,frisch
+LB_12,22-06090-MU,1,Füße,m,Unscharf begrenzt,frisch
+LB_13,22-06090-MU,1,Gesicht,m,Unscharf begrenzt,älter
+LB_14,22-07842-MU,1,Unterarm,m,Unscharf begrenzt,älter
+LB_15,22-07842-MU,1,Oberarm,m,Unscharf begrenzt,älter
+LB_16,22-07842-MU,1,Unterschenkel,m,Unscharf begrenzt,älter
+SR_01,19-00080-MU,18,Schultern,m,Unscharf begrenzt,frisch
+SR_02,19-00143-MU,22,Oberarm,m,Unscharf begrenzt,frisch
+SR_03,19-00211-MU,30,Unterschenkel,w,Unscharf begrenzt,älter
+SR_04,19-00288-MU,8 Monate,Behaarte Kopfhaut,m,Unscharf begrenzt,älter
+SR_05,19-00288-MU,8 Monate,Behaarte Kopfhaut,m,Unscharf begrenzt,älter
+SR_06,19-00291-MU,2,Gesicht,m,Unscharf begrenzt,älter
+SR_07,19-00318-MU,36,Oberschenkel,w,Unscharf begrenzt,älter
+SR_08,19-00318-MU,36,Gesäß,w,Unscharf begrenzt,älter
+SR_09,19-00319-MU,29,Gesäß,w,Unscharf begrenzt,älter
+SR_10,19-00319-MU,29,Rücken,w,Unscharf begrenzt,frisch
+SR_11,19-00319-MU,29,Ohren,w,Unscharf begrenzt,frisch
+SR_12,19-00319-MU,29,Unterarm,w,Unscharf begrenzt,frisch
+SR_13,19-00307-R,75,Brust,w,Unscharf begrenzt,älter
+SR_13,19-00307-R,75,Bauch,w,Unscharf begrenzt,älter
+SR_14,19-00307-R,75,Unterarm,w,Unscharf begrenzt,frisch
+SR_15,19-00307-R,75,Oberschenkel,w,Unscharf begrenzt,frisch
+SR_16,19-00389-MU,17,Gesicht,w,Unscharf begrenzt,frisch
+SR_17,19-00426-MU,2,Unterarm,m,Unscharf begrenzt,älter
+SR_18,19-00577-MU,8 Monate,Gesicht,w,Unscharf begrenzt,älter
+SR_19,19-00578-MU,2,Genitalien,m,Unscharf begrenzt,älter
+SR_20,19-00635-MU,10,Oberschenkel,m,Unscharf begrenzt,älter
+SR_21,19-00678-MU,3 Monate,Oberarm,w,,
+SR_22,19-00683-MU,30,Bauch,w,,
+SR_23,19-00744-MU,51,Oberschenkel,w,Unscharf begrenzt,älter
+SR_24,19-00744-MU,51,Unterarm,w,Unscharf begrenzt,älter
+SR_25,19-00744-MU,51,Hände,w,Unscharf begrenzt,älter
+LS_1,22-07945-MU,5,Ohren,w,"Teils scharf, teils unscharf begrenzt",frisch
+LS_2,23-04789-MU,26,Gesicht,w,Geformt,frisch
+LS_3,23-04789-MU,26,Oberarm,w,Unscharf begrenzt,frisch
+LS_4,22-04590-MU,20,Oberarm,w,Unscharf begrenzt,älter
+LS_5,22-04590-MU,20,Unterschenkel,w,Unscharf begrenzt,älter
+LS_6,22-05369-MU,2 Monate,Bauch,m,,
+LS_7,22-07958-MU,69,Oberarm,m,Unscharf begrenzt,älter
+LS_8,22-07810-MU,83,Oberarm,w,Unscharf begrenzt,frisch
+LS_9,22-07810-MU,83,Hände,w,,
+LS_10,22-07810-MU,83,Unterarm,w,Unscharf begrenzt,frisch
+LS_11,22-07428-MU,62,Nacken,m,,
+LS_12,22-07428-MU,62,Brust,m,Unscharf begrenzt,älter
+LS_13,22-07428-MU,62,Bauch,m,Unscharf begrenzt,älter
+LS_14,22-07428-MU,62,Oberschenkel,m,Unscharf begrenzt,älter
+LS_15,22-07257-MU,28,Oberschenkel,w,Unscharf begrenzt,frisch
+LS_16,22-06747-MU,1,Unterschenkel,m,Unscharf begrenzt,frisch
+LS_17,22-06747-MU,1,Rücken,m,"Teils scharf, teils unscharf begrenzt",frisch
+LS_18,22-05517-MU,31,Oberarm,w,Unscharf begrenzt,frisch
+LS_19,22-05517-MU,31,Oberschenkel,w,Unscharf begrenzt,älter
+LS_20,23-02825-MU,26,Schultern,w,Unscharf begrenzt,frisch
+LS_21,23-02825-MU,26,Gesäß,w,Unscharf begrenzt,frisch
+LS_22,22-04130-MU,86,Rücken,w,Unscharf begrenzt,älter
+LS_23,22-04130-MU,86,Gesäß,w,Unscharf begrenzt,älter
+LS_24,22-04259-MU,46,Bauch,m,Unscharf begrenzt,älter
+LS_25,22-02398-MU,27,Gesicht,m,Geformt,frisch
+LS_26,22-03359-MU,37,Unterarm,w,Unscharf begrenzt,frisch
+UN_01,19-01734-MU,68,Unterarm,w,Unscharf begrenzt,frisch
+UN_02,19-01734-MU,68,Oberschenkel,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_03,19-01734-MU,68,Oberschenkel,w,Unscharf begrenzt,älter
+UN_04,20-00101-MU,13 Monate,Brust,m,Unscharf begrenzt,älter
+UN_05,20-02052-MU,2 Monate,Unterarm,w,Unscharf begrenzt,frisch
+UN_06,20-02052-MU,2 Monate,Gesäß,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_07,20-02636-MU,6 Monate,Unterschenkel,w,Geformt,älter
+UN_08,20-02682-MU,18 Monate,Oberarm,m,Unscharf begrenzt,älter
+UN_09,20-04707-MU,22 Monate,Rücken,w,Unscharf begrenzt,frisch
+UN_10,21-00560-MU,10 Monate,Gesicht,m,Unscharf begrenzt,frisch
+UN_11,21-00560-MU,10 Monate,Gesicht,m,Unscharf begrenzt,frisch
+UN_12,21-01012-MU,8 Monate,Unterschenkel,m,Unscharf begrenzt,älter
+EMU_01,23-03073-MU,4 Monate,Oberschenkel,w,Unscharf begrenzt,frisch
+EMU_02,23-03073-MU,4 Monate,Unterschenkel,w,Unscharf begrenzt,älter
+EMU_03,23-03073-MU,4 Monate,Füße,w,Unscharf begrenzt,älter
+UN_13,19-00748-MU,13,Oberschenkel,m,Unscharf begrenzt,älter
+UN_14,19-00748-MU,13,Oberschenkel,m,Unscharf begrenzt,älter
+LB_17,23-05676-MU,7,Oberarm,w,Unscharf begrenzt,frisch
+LB_18,23-05676-MU,7,Oberarm,w,Unscharf begrenzt,frisch
+LB_19,23-05676-MU,7,Schultern,w,Unscharf begrenzt,frisch
+LB_20,23-05676-MU,7,Schultern,w,Unscharf begrenzt,frisch
+LB_21,23-05676-MU,7,Gesicht,w,Unscharf begrenzt,frisch
+LB_22,23-05676-MU,7,Gesäß,w,"Teils scharf, teils unscharf begrenzt",frisch
+LB_23,23-05676-MU,7,Oberschenkel,w,Unscharf begrenzt,frisch
+LB_24,23-05676-MU,7,Ohren,w,Unscharf begrenzt,frisch
+LB_25,23-05676-MU,7,Ohren,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_15,22-03746-MU,65,Rücken,m,Scharf begrenzt,frisch
+UN_16,22-03746-MU,65,Oberarm,m,Scharf begrenzt,frisch
+UN_17,22-00306-MU,66,Oberarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_18,22-00306-MU,66,Oberarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_19,22-00306-MU,66,Brust,w,Unscharf begrenzt,frisch
+UN_20,22-00306-MU,66,Brust,w,Unscharf begrenzt,frisch
+UN_21,23-00583-MU,67,Bauch,m,Unscharf begrenzt,frisch
+LB_26,23-05677-MU,20,Schultern,w,"Teils scharf, teils unscharf begrenzt",frisch
+LB_27,23-05677-MU,20,Halsvorderseite,w,Scharf begrenzt,frisch
+LB_28,23-05677-MU,20,Unterarm,w,Unscharf begrenzt,frisch
+LB_29,23-05677-MU,20,Oberarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_22,21-05034-MU,69,Gesicht,w,Unscharf begrenzt,frisch
+UN_23,21-05034-MU,69,Genitalien,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_24,21-05034-MU,69,Gesäß,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_25,21-07109-MU,69,Oberschenkel,m,Unscharf begrenzt,älter
+UN_26,21-03002-MU,70,Ohren,m,"Teils scharf, teils unscharf begrenzt",frisch
+UN_27,21-03002-MU,70,Gesicht,m,"Teils scharf, teils unscharf begrenzt",frisch
+UN_28,21-03002-MU,70,Oberarm,m,Unscharf begrenzt,älter
+UN_29,21-00419-MU,71,Unterarm,w,Unscharf begrenzt,frisch
+UN_30,21-01343-MU,4,Oberarm,m,Geformt,frisch
+UN_31,21-01343-MU,4,Unterschenkel,m,Unscharf begrenzt,älter
+UN_32,21-01343-MU,4,Oberschenkel,m,Unscharf begrenzt,älter
+UN_33,21-01343-MU,4,Oberschenkel,m,Unscharf begrenzt,älter
+UN_34,20-01316-MU,72,Unterschenkel,w,Unscharf begrenzt,frisch
+UN_35,20-01316-MU,72,Füße,w,Unscharf begrenzt,frisch
+UN_36,20-01316-MU,72,Bauch,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_37,20-01316-MU,72,Oberarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_38,23-05766-MU,4,Oberarm,w,Unscharf begrenzt,frisch
+UN_39,23-05766-MU,4,Rücken,w,Unscharf begrenzt,älter
+UN_40,23-05766-MU,4,Oberschenkel,w,Geformt,älter
+UN_41,23-05766-MU,4,Oberschenkel,w,Geformt,älter
+UN_42,23-05766-MU,4,Oberschenkel,w,Geformt,älter
+UN_43,23-05766-MU,4,Oberschenkel,w,Geformt,älter
+UN_44,21-02168-MU,72,Oberarm,m,Unscharf begrenzt,älter
+UN_45,21-02168-MU,72,Unterarm,m,Unscharf begrenzt,älter
+UN_46,21-05480-MU,73,Oberarm,w,Unscharf begrenzt,frisch
+UN_47,23-04101-MU,73,Oberschenkel,w,Unscharf begrenzt,frisch
+UN_48,23-04101-MU,73,Unterschenkel,w,Unscharf begrenzt,frisch
+UN_49,23-04101-MU,73,Unterschenkel,w,Unscharf begrenzt,frisch
+UN_50,22-02747-MU,74,Unterarm,w,Unscharf begrenzt,frisch
+UN_51,22-05907-MU,79,Brust,w,Unscharf begrenzt,älter
+UN_52,22-05907-MU,79,Brust,w,Unscharf begrenzt,älter
+UN_53,22-05907-MU,79,Rücken,w,Unscharf begrenzt,älter
+UN_54,22-05907-MU,79,Hände,w,,
+UN_55,22-05907-MU,79,Hände,w,,
+UN_56,22-05907-MU,79,Unterschenkel,w,Unscharf begrenzt,älter
+UN_57,22-05907-MU,79,Unterschenkel,w,Unscharf begrenzt,älter
+UN_58,22-05907-MU,79,Gesäß,w,Unscharf begrenzt,älter
+UN_59,22-06248-MU,79,Hände,w,,
+UN_60,22-04397-MU,80,Oberschenkel,w,Scharf begrenzt,frisch
+UN_61,22-02060-MU,81,Oberarm,w,Unscharf begrenzt,älter
+UN_62,22-02060-MU,81,Unterschenkel,w,Unscharf begrenzt,älter
+UN_63,22-04260-MU,81,Oberschenkel,w,Unscharf begrenzt,frisch
+UN_64,22-08106-MU,82,Schultern,m,"Teils scharf, teils unscharf begrenzt",frisch
+UN_65,22-08106-MU,82,Rücken,m,Unscharf begrenzt,frisch
+UN_66,22-08106-MU,82,Rücken,m,Unscharf begrenzt,frisch
+UN_67,21-02935-MU,83,Schultern,w,Unscharf begrenzt,älter
+UN_68,21-02935-MU,83,Rücken,w,Unscharf begrenzt,älter
+UN_69,21-02935-MU,83,Oberschenkel,w,Unscharf begrenzt,älter
+UN_70,20-00613-MU,86,Brust,w,Unscharf begrenzt,frisch
+UN_71,20-00613-MU,86,Rücken,w,Unscharf begrenzt,frisch
+UN_72,20-07785-MU,88,Rücken,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_73,20-07785-MU,88,Oberschenkel,w,"Teils scharf, teils unscharf begrenzt",frisch
+UN_74,22-02502-MU,88,Unterschenkel,w,Unscharf begrenzt,älter
+UN_75,23-05805-MU,37,Hände,w,,
+UN_76,23-05805-MU,37,Hände,w,,
+UN_77,23-05937-MU,61,Unterarm,w,Unscharf begrenzt,älter
+LS_27,23-06227-MU,49,Unterarm,m,Unscharf begrenzt,frisch
+YT_01,U-2013-001,54,Oberarm,w,scharf begrenzt,frisch
+YT_02,U-2013-001,54,Oberarm,w,Geformt,frisch
+YT_03,U-2013-001,54,Oberarm,w,Scharf begrenzt,frisch
+YT_04,U-2013-001,54,Oberarm,w,Scharf begrenzt,frisch
+YT_05,U-2013-001,54,Oberarm,w,Scharf begrenzt,frisch
+YT_06,U-2013-001,54,Schultern,w,Geformt,frisch
+YT_07,U-2013-001,54,Oberarm,w,Unscharf begrenzt,frisch
+YT_08,U-2013-001,54,Brust,w,Unscharf begrenzt,Frisch
+YT_09,U-2013-001,54,Brust,w,Unscharf begrenzt,Frisch
+YT_10,U-2013-001,54,Rücken,w,Unscharf begrenzt,Frisch
+YT_11,U-2013-002,55,Gesicht,w,Unscharf begrenzt,älter
+YT_12,U-2013-002,55,Gesicht,w,Unscharf begrenzt,älter
+YT_13,U-2013-009,3,Oberschenkel,m,Unscharf begrenzt,älter
+YT_14,U-2013-009,3,Unterarm,m,Unscharf begrenzt,älter
+YT_15,U-2013-009,3,Gesicht,m,Unscharf begrenzt,älter
+YT_16,U-2013-009,3,Rücken,m,Unscharf begrenzt,älter
+YT_17,U-2013-009,3,Rücken,m,Unscharf begrenzt,älter
+YT_18,U-2013-009,3,Rücken,m,Unscharf begrenzt,älter
+YT_19,U-2013-009,3,Unterschenkel,m,Unscharf begrenzt,älter
+YT_20,U-2013-009,3,Genitalien,m,Unscharf begrenzt,Frisch
+YT_21,U-2013-011,36,Oberarm,w,Unscharf begrenzt,älter
+YT_22,U-2013-011,36,Unterschenkel,w,Unscharf begrenzt,älter
+YT_23,U-2013-011,36,Unterschenkel,w,Unscharf begrenzt,älter
+YT_24,U-2013-011,36,Unterschenkel,w,Unscharf begrenzt,älter
+YT_25,U-2013-014,3,Rücken,w,Unscharf begrenzt,Frisch
+YT_26,U-2013-015,27,Gesicht,w,Unscharf begrenzt,Frisch
+YT_27,U-2013-015,27,Gesicht,w,Unscharf begrenzt,Frisch
+YT_28,U-2013-015,27,Unterarm,w,Unscharf begrenzt,Frisch
+YT_29,U-2013-015,27,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_30,U-2013-015,27,Oberschenkel,w,Unscharf begrenzt/geformet,Frisch
+YT_31,U-2013-024,36,Oberschenkel,m,Geformt,frisch
+YT_32,U-2013-024,36,Oberschenkel,m,Unscharf begrenzt,Frisch
+YT_33,U-2013-024,36,Gesicht,m,Unscharf begrenzt,älter
+YT_34,U-2013-024,36,Gesicht,m,Unscharf begrenzt,älter
+YT_35,U-2013-024,36,Gesicht,m,Unscharf begrenzt,älter
+YT_36,U-2013-024,36,Gesicht,m,Unscharf begrenzt,älter
+YT_37,U-2013-024,36,Nacken,m,Unscharf begrenzt,älter
+YT_38,U-2013-024,36,Nacken,m,Unscharf begrenzt,älter
+YT_39,U-2013-024,36,Nacken,m,Unscharf begrenzt,älter
+YT_40,U-2013-024,36,Brust,m,Unscharf begrenzt,älter
+YT_41,U-2013-024,36,Rücken,m,Unscharf begrenzt,älter
+YT_42,U-2013-024,36,Oberarm,m,Unscharf begrenzt,älter
+YT_43,U-2013-025,78,Gesicht,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_44,U-2013-025,78,Brust,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_45,U-2013-025,78,Oberarm,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_46,U-2013-025,78,Brust,m,Scharf begrenzt,Frisch
+YT_47,U-2013-025,78,Brust,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_48,U-2013-025,78,Oberarm,m,Unscharf begrenzt,Frisch
+YT_49,U-2013-025,78,Bauch,m,Unscharf begrenzt,frisch
+YT_50,U-2013-025,78,Bauch,m,Unscharf begrenzt,Frisch
+YT_51,U-2013-025,78,Rücken,m,Geformt,Frisch
+YT_52,U-2013-025,78,Oberschenkel,m,Geformt,Frisch
+YT_53,U-2013-025,78,Oberschenkel,m,Geformt,Frisch
+YT_54,U-2013-025,78,Oberarm,m,Unscharf begrenzt,älter
+YT_55,U-2013-025,78,Oberarm,m,Unscharf begrenzt,älter
+YT_56,U-2013-026,20,Rücken,w,Unscharf begrenzt,älter
+YT_57,U-2013-026,20,Gesäß,w,Unscharf begrenzt,älter
+YT_58,U-2013-026,20,Gesäß,w,Unscharf begrenzt,älter
+YT_59,U-2013-026,20,Oberschenkel,w,Geformt,älter
+YT_60,U-2013-026,20,Oberschenkel,w,Unscharf begrenzt,älter
+YT_61,U-2013-026,20,Gesäß,w,Unscharf begrenzt,älter
+YT_62,U-2013-026,20,Oberschenkel,w,Unscharf begrenzt,älter
+YT_63,U-2013-026,20,Oberschenkel,w,Unscharf begrenzt,älter
+YT_64,U-2013-026,20,Rücken,w,Unscharf begrenzt,Frisch
+YT_65,U-2013-026,20,Rücken,w,Unscharf begrenzt,Frisch
+YT_66,U-2013-026,20,Rücken,w,Geformt,Frisch
+YT_67,U-2013-026,20,Nacken,w,Unscharf begrenzt,Frisch
+YT_68,U-2013-026,20,Nacken,w,Unscharf begrenzt,Frisch
+YT_69,U-2013-027,19,Oberschenkel,w,Unscharf begrenzt,älter
+YT_70,U-2013-027,19,Oberschenkel,w,Unscharf begrenzt,älter
+YT_71,U-2013-027,19,Oberschenkel,w,Unscharf begrenzt,älter
+YT_72,U-2013-028,39,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_77,U-2013-028,39,Oberarm,w,Unscharf begrenzt,Frisch
+YT_78,U-2013-028,39,Oberschenkel,w,Unscharf begrenzt,älter
+YT_79,U-2013-028,39,Oberschenkel,w,Unscharf begrenzt,älter
+YT_80,U-2013-028,39,Oberschenkel,w,Unscharf begrenzt,älter
+YT_81,U-2013-029,32,Oberschenkel,w,Unscharf begrenzt,älter
+YT_82,U-2013-029,32,Gesicht,w,Unscharf begrenzt,Frisch
+YT_83,U-2013-030,23,Unterschenkel,w,Unscharf begrenzt,älter
+YT_84,U-2013-030,23,Unterschenkel,w,Unscharf begrenzt,älter
+YT_85,U-2013-030,23,Unterschenkel,w,Unscharf begrenzt,älter
+YT_86,U-2013-030,23,Oberarm,w,Unscharf begrenzt,Frisch
+YT_87,U-2013-030,23,Hände,w,Unscharf begrenzt,Frisch
+YT_88,U-2013-030,23,Hände,w,Unscharf begrenzt,Frisch
+YT_89,U-2013-030,23,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_90,U-2013-030,23,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_92,U-2013-031,43,Gesicht,m,Unscharf begrenzt,Frisch
+YT_95,U-2013-036,37,Gesicht,w,Unscharf begrenzt,Frisch
+YT_96,U-2013-036,37,Gesicht,w,Unscharf begrenzt,Frisch
+YT_97,U-2013-036,37,Oberschenkel,w,Unscharf begrenzt,älter
+YT_98,U-2013-037,6,Gesäß,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_99,U-2013-037,6,Gesäß,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_100,U-2013-037,6,Gesäß,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_101,U-2013-037,6,Oberschenkel,w,Unscharf begrenzt,älter
+YT_102,U-2013-037,6,Unterschenkel,w,Unscharf begrenzt,älter
+YT_103,U-2013-037,6,Unterschenkel,w,Unscharf begrenzt,älter
+YT_107,U-2013-041,11,Ohren,m,Unscharf begrenzt,Frisch
+YT_108,U-2013-041,11,Ohren,m,Unscharf begrenzt,Frisch
+YT_110,U-2013-041,11,Gesäß,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_111,U-2013-041,11,Gesäß,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_112,U-2013-042,45,Unterschenkel,m,Geformet,Frisch
+YT_113,U-2013-042,45,Gesäß,m,Scharf begrenzt,Frisch
+YT_114,U-2013-042,45,Gesäß,m,Scharf begrenzt,Frisch
+YT_115,U-2013-042,45,Rücken,m,Unscharf begrenzt,älter
+YT_116,U-2013-042,45,Rücken,m,Unscharf begrenzt,älter
+YT_117,U-2013-042,45,Rücken,m,Unscharf begrenzt,älter
+YT_118,U-2013-047,18,Gesicht,m,Unscharf begrenzt,Frisch
+YT_119,U-2013-047,18,Gesicht,m,Unscharf begrenzt,Frisch
+YT_120,U-2013-048,45,Unterarm,w,Unscharf begrenzt,Frisch
+YT_121,U-2013-048,45,Gesicht,w,Scharf begrenzt,Frisch
+YT_122,U-2013-048,45,Gesicht,w,Scharf begrenzt,Frisch
+YT_123,U-2013-048,45,Oberarm,w,Unscharf begrenzt,Frisch
+YT_124,U-2013-048,45,Oberschenkel,w,Unscharf begrenzt,älter
+YT_125,U-2013-048,45,Unterschenkel,w,Unscharf begrenzt,älter
+YT_126,U-2013-048,45,Unterschenkel,w,Unscharf begrenzt,älter
+YT_127,U-2013-048,45,Unterschenkel,w,Unscharf begrenzt,älter
+YT_128,U-2013-049,49,Gesicht,w,Unscharf begrenzt,frisch
+YT_129,U-2013-049,49,Gesicht,w,Unscharf begrenzt,Frisch
+YT_130,U-2013-050,42,Oberarm,w,Unscharf begrenzt,älter
+YT_131,U-2013-050,42,Oberarm,w,Unscharf begrenzt,älter
+YT_132,U-2013-050,42,Oberarm,w,Unscharf begrenzt,älter
+YT_133,U-2013-050,42,Rücken,w,Unscharf begrenzt,Frisch
+YT_134,U-2013-050,42,Rücken,w,Unscharf begrenzt,Frisch
+YT_135,U-2013-050,42,Rücken,w,Unscharf begrenzt,Frisch
+YT_136,U-2013-051,26,Gesicht,m,Unscharf begrenzt,älter
+YT_137,U-2013-055,61,Schultern,w,Unscharf begrenzt,älter
+YT_138,U-2013-055,61,Brust,w,Unscharf begrenzt,älter
+YT_139,U-2013-055,61,Unterarm,w,Unscharf begrenzt,Frisch
+YT_140,U-2013-055,61,Oberarm,w,Unscharf begrenzt,Frisch
+YT_141,U-2013-055,61,Rücken,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_142,U-2013-055,61,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_143,U-2013-055,61,Oberarm,w,Unscharf begrenzt,frisch
+YT_144,U-2013-055,61,Oberarm,w,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_145,U-2013-055,61,Schultern,w,Unscharf begrenzt,Frisch
+YT_146,U-2013-062,2 monate,Gesäß,m,Unscharf begrenzt,Frisch
+YT_147,U-2013-062,2 monate,Gesäß,m,Unscharf begrenzt,älter
+YT_148,U-2013-062,2 monate,Gesäß,m,Unscharf begrenzt,älter
+YT_149,U-2013-064,33,Oberarm,w,Unscharf begrenzt,älter
+YT_150,U-2013-064,33,Oberarm,w,Unscharf begrenzt,älter
+YT_151,U-2013-070,17,Gesicht,m,Unscharf begrenzt,älter
+YT_152,U-2013-070,17,Gesicht,m,Unscharf begrenzt,Frisch
+YT_153,U-2013-070,17,Oberarm,m,Geformet,älter
+YT_154,U-2013-071,56,Schultern,w,Unscharf begrenzt,Frisch
+YT_155,U-2013-071,56,Bauch,w,Unscharf begrenzt,Frisch
+YT_156,U-2013-071,56,Bauch,w,Unscharf begrenzt,Frisch
+YT_158,U-2013-071,56,Bauch,w,Unscharf begrenzt,Frisch
+YT_159,U-2013-071,56,Bauch,w,Unscharf begrenzt,Frisch
+YT_160,U-2013-071,56,Rücken,w,Unscharf begrenzt,Frisch
+YT_161,U-2013-071,56,Rücken,w,Unscharf begrenzt,Frisch
+YT_162,U-2013-073,76,Oberarm,w,Unscharf begrenzt,älter
+YT_163,U-2013-073,76,Oberarm,w,Unscharf begrenzt,älter
+YT_164,U-2013-073,76,Gesäß,w,Unscharf begrenzt,Frisch
+YT_165,U-2013-073,76,Oberarm,w,unscharf begrenzt,Frisch
+YT_166,U-2013-073,76,Rücken,w,unscharf begrenzt,Frisch
+YT_167,U-2013-073,76,Brust,w,unscharf begrenzt,frisch
+YT_168,U-2013-073,76,Gesäß,w,unscharf begrenzt,Frisch
+YT_169,U-2013-074,20,Rücken,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_170,U-2013-074,20,Gesicht,m,unscharf begrenzt,Frisch
+YT_171,U-2013-074,20,Gesicht,m,unscharf begrenzt,Frisch
+YT_172,U-2013-074,20,Gesicht,m,unscharf begrenzt,Frisch
+YT_174,U-2013-074,20,Rücken,m,"Teils scharf, teils unscharf begrenzt",Frisch
+YT_175,U-2013-097,10,Unterschenkel,m,unscharf begrenzt,Frisch
+YT_176,U-2013-097,10,Oberarm,m,unscharf begrenzt,Frisch
+YT_177,U-2013-097,10,Oberschenkel,m,unscharf begrenzt,Frisch
+YT_178,U-2013-097,10,Unterschenkel,m,unscharf begrenzt,älter
+YT_179,U-2013-097,10,Oberschenkel,m,unscharf begrenzt,älter
+YT_180,U-2013-097,10,Unterarm,m,unscharf begrenzt,älter
+YT_183,U-2013-098,19,Oberschenkel,m,unscharf begrenzt,älter
+YT_184,U-2013-098,19,Nacken,m,unscharf begrenzt,älter
+YT_185,U-2013-098,19,Oberarm,m,unscharf begrenzt,älter
+YT_187,U-2013-099,24,Oberarm,w,unscharf begrenzt,frisch
+YT_188,U-2013-099,24,Oberarm,w,unscharf begrenzt,frisch
+YT_189,U-2013-099,24,Oberarm,w,unscharf begrenzt,frisch
+YT_190,U-2013-102,4,Gesäß,w,unscharf begrenzt,älter
+YT_191,U-2013-102,4,Unterarm,w,unscharf begrenzt,älter
+YT_193,U-2013-102,4,Gesicht,w,unscharf begrenzt,frisch
+YT_194,U-2013-102,4,Gesicht,w,unscharf begrenzt,frisch
+YT_195,U-2013-113,22,Oberarm,w,unscharf begrenzt,älter
+YT_196,U-2013-113,22,Oberarm,w,unscharf begrenzt,älter
+YT_202,U-2013-114,27,Oberarm,w,unscharf begrenzt,älter
+YT_203,U-2013-114,27,Rücken,w,"Teils scharf, teils unscharf begrenzt",älter
+YT_204,U-2013-114,27,Nacken,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_205,U-2013-114,27,Nacken,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_206,U-2013-119,6,Oberschenkel,w,unscharf begrenzt,älter
+YT_207,U-2013-119,6,Unterschenkel,w,unscharf begrenzt,frisch
+YT_208,U-2013-119,6,Unterschenkel,w,unscharf begrenzt,frisch
+YT_209,U-2013-123,7,Oberschenkel,m,unscharf begrenzt,älter
+YT_210,U-2013-123,7,Oberschenkel,m,unscharf begrenzt,älter
+YT_211,U-2013-123,7,Oberschenkel,m,unscharf begrenzt,älter
+YT_212,U-2013-123,7,Unterschenkel,m,unscharf begrenzt,älter
+YT_213,U-2013-123,7,Genitalien,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_214,U-2013-123,7,Genitalien,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_215,U-2013-123,7,Genitalien,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_216,U-2013-127,6,Oberschenkel,w,unscharf begrenzt,älter
+YT_217,U-2013-127,6,Unterarm,w,Scharf begrenzt,älter
+YT_218,U-2013-127,6,Unterarm,w,unscharf begrenzt,älter
+YT_219,U-2013-127,6,Unterarm,w,unscharf begrenzt,älter
+YT_220,U-2013-127,6,Oberschenkel,w,unscharf begrenzt,älter
+YT_221,U-2013-127,6,Unterschenkel,w,unscharf begrenzt,frisch
+YT_222,U-2013-131,3,Unterschenkel,w,unscharf begrenzt,älter
+YT_223,U-2013-131,3,Oberschenkel,w,unscharf begrenzt,frisch
+YT_224,U-2013-133,45,Oberarm,w,unscharf begrenzt,älter
+YT_225,U-2013-133,45,Oberarm,w,unscharf begrenzt,älter
+YT_226,U-2013-133,45,Gesicht,w,unscharf begrenzt,frisch
+YT_227,U-2013-133,45,Gesicht,w,unscharf begrenzt,frisch
+YT_228,U-2013-133,45,Gesicht,w,unscharf begrenzt,frisch
+YT_229,U-2013-134,44,Füße,m,Scharf begrenzt,frisch
+YT_230,U-2013-134,44,Oberschenkel,m,unscharf begrenzt,frisch
+YT_231,U-2013-134,44,Unterarm,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_232,U-2013-134,44,Unterarm,m,unscharf begrenzt,frisch
+YT_233,U-2013-134,44,Unterarm,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_234,U-2013-134,44,Rücken,m,Geformet,frisch
+YT_235,U-2013-134,44,Rücken,m,Geformet,frisch
+YT_236,U-2013-134,44,Oberarm,m,Scharf begrenzt,frisch
+YT_237,U-2013-134,44,Oberarm,m,Scharf begrenzt,frisch
+YT_238,U-2013-134,44,Brust,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_239,U-2013-134,44,Brust,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_240,U-2013-135,45,Gesäß,w,unscharf begrenzt,älter
+YT_241,U-2013-135,45,Genitalien,w,unscharf begrenzt,älter
+YT_242,U-2013-135,45,Genitalien,w,unscharf begrenzt,älter
+YT_243,U-2013-135,45,Gesäß,w,unscharf begrenzt,älter
+YT_244,U-2013-136,14,Oberschenkel,w,unscharf begrenzt,älter
+YT_245,U-2013-136,14,Rücken,w,,älter
+YT_246,U-2013-136,14,Oberarm,w,,älter
+YT_247,U-2013-136,14,Oberarm,w,unscharf begrenzt,älter
+YT_248,U-2013-138,31,Schultern,m,Geformet,frisch
+YT_249,U-2013-138,31,Bauch,m,Geformet,frisch
+YT_250,U-2013-138,31,Bauch,m,Geformet,frisch
+YT_251,U-2013-138,31,Bauch,m,Geformet,frisch
+YT_252,U-2013-138,31,Bauch,m,Geformet,frisch
+YT_253,U-2013-139,27,Rücken,m,Geformet,frisch
+YT_257,U-2013-139,27,Rücken,m,Geformet,frisch
+YT_258,U-2013-143,45,Unterschenkel,w,unscharf begrenzt,älter
+YT_259,U-2013-143,45,Unterschenkel,w,unscharf begrenzt,älter
+YT_260,U-2013-143,45,Unterschenkel,w,unscharf begrenzt,älter
+YT_261,U-2013-144,56,Bauch,m,unscharf begrenzt,älter
+YT_262,U-2013-144,56,Rücken,m,unscharf begrenzt,älter
+YT_263,U-2013-144,56,Rücken,m,unscharf begrenzt,älter
+YT_264,U-2013-147,22,Oberschenkel,w,unscharf begrenzt,frisch
+YT_265,U-2013-147,22,Oberschenkel,w,Scharf begrenzt,frisch
+YT_266,U-2013-147,22,Oberschenkel,w,Scharf begrenzt,frisch
+YT_267,U-2013-147,22,Oberarm,w,unscharf begrenzt,frisch
+YT_268,U-2013-147,22,Oberschenkel,w,Scharf begrenzt,frisch
+YT_269,U-2013-152,42,Oberarm,w,unscharf begrenzt,frisch
+YT_270,U-2013-152,42,Brust,w,Geformet,frisch
+YT_271,U-2013-153,37,Oberschenkel,w,Unscharf begrenzt,älter
+YT_272,U-2013-153,37,Rücken,w,unscharf begrenzt,älter
+YT_273,U-2013-153,37,Rücken,w,unscharf begrenzt,älter
+YT_274,U-2013-156,37,Unterarm,w,unscharf begrenzt,älter
+YT_275,U-2013-156,37,Rücken,w,unscharf begrenzt,älter
+YT_276,U-2013-156,37,Rücken,w,unscharf begrenzt,älter
+YT_277,U-2013-156,37,Bauch,w,unscharf begrenzt,älter
+YT_278,U-2013-156,37,Unterarm,w,unscharf begrenzt,älter
+YT_279,U-2013-157,37,Rücken,w,unscharf begrenzt,älter
+YT_280,U-2013-157,37,Oberarm,w,unscharf begrenzt,älter
+YT_281,U-2013-157,37,Oberarm,w,unscharf begrenzt,älter
+YT_282,U-2013-157,37,Oberarm,w,unscharf begrenzt,älter
+YT_283,U-2013-157,37,Unterarm,w,unscharf begrenzt,älter
+YT_284,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_285,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_286,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_287,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_288,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_289,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_290,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_291,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_292,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_293,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_294,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_295,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,älter
+YT_296,U-2013-159,52,Oberschenkel,w,unscharf begrenzt,frisch
+YT_297,U-2013-159,52,Oberarm,w,Scharf begrenzt,frisch
+YT_298,U-2013-159,52,Oberarm,w,Scharf begrenzt,frisch
+YT_299,U-2013-159,52,Oberarm,w,,frisch
+YT_300,U-2013-159,52,Brust ,w,unscharf begrenzt,frisch
+YT_301,U-2013-159,52,Brust,w,unscharf begrenzt,frisch
+YT_302,U-2013-159,52,Brust,w,unscharf begrenzt,frisch
+YT_303,U-2013-161,26,Schultern,m,Geformet,frisch
+YT_304,U-2013-161,26,Rücken,m,Geformet,frisch
+YT_305,U-2013-164,20,Gesicht,w,Scharf begrenzt,frisch
+YT_306,U-2013-164,20,Ohren,w,unscharf begrenzt,frisch
+YT_307,U-2013-164,20,Ohren,w,unscharf begrenzt,frisch
+YT_308,U-2013-168,3,Gesäß,m,unscharf begrenzt,frisch
+YT_309,U-2013-168,3,Gesäß ,m,unscharf begrenzt,frisch
+YT_310,U-2013-169,5,Gesäß,m,geformet und unscharfbegrenzt,frisch
+YT_311,U-2013-177,42,Brust,w,unscharf begrenzt,älter
+YT_312,U-2013-177,42,Oberarm,w,unscharf begrenzt,frisch
+YT_313,U-2013-177,42,Gesicht,w,unscharf begrenzt,frisch
+YT_314,U-2013-185,2,Ohren,m,unscharf begrenzt,frisch
+YT_315,U-2013-198,37,Oberarm,w,unscharf begrenzt,frisch
+YT_316,U-2013-198,37,Oberarm,w,unscharf begrenzt,älter
+YT_317,U-2013-201,24,Oberschenkel,w,unscharf begrenzt,frisch
+YT_318,U-2013-201,24,Oberschenkel,w,unscharf begrenzt,frisch
+YT_319,U-2013-213,66,Oberschenkel,w,unscharf begrenzt,frisch
+YT_320,U-2013-215,27,Oberschenkel,w,unscharf begrenzt,frisch
+YT_321,U-2013-222,37,Oberschenkel,w,unscharf begrenzt,älter
+YT_322,U-2013-222,37,Oberschenkel,w,unscharf begrenzt,älter
+YT_323,U-2013-222,37,Oberschenkel,w,unscharf begrenzt,älter
+YT_324,U-2013-222,37,Oberarm,w,unscharf begrenzt,frisch
+YT_325,U-2013-225,47,Oberarm,w,unscharf begrenzt,älter
+YT_326,U-2013-225,47,Oberarm,w,unscharf begrenzt,älter
+YT_327,U-2013-225,47,Oberschenkel,w,unscharf begrenzt,frisch
+YT_328,U-2013-225,47,Oberarm,w,unscharf begrenzt,frisch
+YT_329,U-2013-225,47,Oberschenkel,w,unscharf begrenzt,frisch
+YT_330,U-2013-230,18 Monate,Rücken,m,unscharf begrenzt,älter
+YT_331,U-2013-230,18 Monate,Genitalien,m,unscharf begrenzt,frisch
+YT_332,U-2013-232,17,Rücken,w,unscharf begrenzt,älter
+YT_333,U-2013-232,17,Rücken,w,unscharf begrenzt,frisch
+YT_334,U-2013-232,17,Oberarm,w,unscharf begrenzt,frisch
+YT_335,U-2013-232,17,Oberarm,w,unscharf begrenzt,frisch
+YT_336,U-2013-232,17,Rücken,w,unscharf begrenzt,frisch
+YT_337,U-2013-232,17,Rücken,w,unscharf begrenzt,frisch
+YT_338,U-2013-232,17,Rücken,w,unscharf begrenzt,frisch
+YT_339,U-2013-235,54,Oberschenkel,w,unscharf begrenzt,frisch
+YT_340,U-2013-235,54,Gesicht,w,unscharf begrenzt,frisch
+YT_341,U-2013-235,54,Gesicht,w,unscharf begrenzt,frisch
+YT_342,U-2013-235,54,Behaarte Kopfhaut,w,unscharf begrenzt,frisch
+YT_343,U-2013-235,54,Schultern,w,unscharf begrenzt,frisch
+YT_344,U-2013-235,54,Unterarn,w,unscharf begrenzt,frisch
+YT_345,U-2013-235,54,Oberschenkel,w,unscharf begrenzt,frisch
+YT_346,U-2013-235,54,Oberschenkel,w,unscharf begrenzt,frisch
+YT_347,U-2013-239,2,Ohren,w,unscharf begrenzt,frisch
+YT_348,U-2013-239,2,Gesicht,w,unscharf begrenzt,älter
+YT_349,U-2014-002,79,Oberarm,m,unscharf begrenzt,älter
+YT_350,U-2014-002,79,Oberarm,m,unscharf begrenzt,älter
+YT_351,U-2014-002,79,Unterarm,m,unscharf begrenzt,älter
+YT_352,U-2014-002,79,Unterarm,m,unscharf begrenzt,älter
+YT_353,U-2014-002,79,Unterarm,m,unscharf begrenzt,älter
+YT_354,U-2014-002,79,Unterarm,m,unscharf begrenzt,älter
+YT_355,U-2014-002,79,Bauch,m,unscharf begrenzt,älter
+YT_356,U-2014-002,79,Oberschenkel,m,unscharf begrenzt,älter
+YT_357,U-2014-002,79,Oberschenkel,m,unscharf begrenzt,älter
+YT_358,U-2014-002,79,Rücken,m,Scharf begrenzt,frisch
+YT_359,U-2014-002,79,Oberschenkel,m,unscharf begrenzt,frisch
+YT_360,U-2014-006,20,Gesicht,m,unscharf begrenzt,frisch
+YT_361,U-2014-008,24,Oberschenkel,w,unscharf begrenzt,älter
+YT_362,U-2014-011,22,Bauch,w,unscharf begrenzt,älter
+YT_363,U-2014-011,22,Gesicht,w,unscharf begrenzt,älter
+YT_364,U-2014-011,22,Oberarm,w,"Teils scharf, teils unscharf begrenzt",älter
+YT_365,U-2014-011,22,Oberarm,w,unscharf begrenzt,älter
+YT_366,U-2014-011,22,Unterarm,w,unscharf begrenzt,älter
+YT_367,U-2014-018,14,Oberarm,w,unscharf begrenzt,älter
+YT_368,U-2014-018,14,Rücken,w,unscharf begrenzt,frisch
+YT_369,U-2014-018,14,Schultern ,w,unscharf begrenzt,frisch
+YT_370,U-2014-031,18,Oberarm,w,unscharf begrenzt,älter
+YT_371,U-2014-031,18,Oberarm,w,unscharf begrenzt,älter
+YT_372,U-2014-036,27,Schultern,w,unscharf begrenzt,frisch
+YT_373,U-2014-036,27,Oberarm,w,unscharf begrenzt,frisch
+YT_374,U-2014-036,27,Oberarm,w,unscharf begrenzt,frisch
+YT_375,U-2014-036,27,Oberarm,w,unscharf begrenzt,frisch
+YT_376,U-2014-036,27,Schultern,w,unscharf begrenzt,frisch
+YT_377,U-2014-036,27,Oberarm,w,unscharf begrenzt,frisch
+YT_378,U-2014-037,5,Gesäß,w,unscharf begrenzt,älter
+YT_379,U-2014-037,5,Gesäß,w,unscharf begrenzt,älter
+YT_380,U-2014-037,5,Ohren,w,unscharf begrenzt,frisch
+YT_381,U-2014-037,5,Ohren,w,unscharf begrenzt,frisch
+YT_382,U-2014-037,5,Ohren,w,unscharf begrenzt,frisch
+YT_383,U-2014-039,2,Gesäß,m,unscharf begrenzt,älter
+YT_384,U-2014-040,47,Oberschenkel,w,unscharf begrenzt,älter
+YT_385,U-2014-040,47,Oberarm,w,"Teils scharf, teils unscharf begrenzt",älter
+YT_386,U-2014-040,47,Rücken,w,unscharf begrenzt,älter
+YT_387,U-2014-040,47,Rücken,w,unscharf begrenzt,älter
+YT_388,U-2014-040,47,Bauch,w,unscharf begrenzt,älter
+YT_389,U-2014-040,47,Oberschenkel,w,"Teils scharf, teils unscharf begrenzt",älter
+YT_390,U-2014-042,20,Gesicht,m,unscharf begrenzt,frisch
+YT_391,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_392,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_393,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_394,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_395,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_396,U-2014-047,69,Gesicht,w,unscharf begrenzt,frisch
+YT_397,U-2014-047,69,Oberarm,w,unscharf begrenzt,frisch
+YT_398,U-2014-047,69,Hände,w,unscharf begrenzt,frisch
+YT_399,U-2014-047,69,Hände,w,unscharf begrenzt,frisch
+YT_400,U-2014-047,69,Gesäß,w,unscharf begrenzt,frisch
+YT_401,U-2014-047,69,Unterschenkel,w,unscharf begrenzt,älter
+YT_402,U-2014-047,69,Oberarm,w,unscharf begrenzt,älter
+YT_403,U-2014-047,69,Oberarm,w,unscharf begrenzt,älter
+YT_404,U-2014-048,48,Oberschenkel,w,unscharf begrenzt,frisch
+YT_405,U-2014-052,46,Oberarm,w,unscharf begrenzt,älter
+YT_406,U-2014-052,46,Oberarm,w,unscharf begrenzt,älter
+YT_407,U-2014-053,32,Gesicht,w,unscharf begrenzt,frisch
+YT_408,U-2014-053,32,Gesicht,w,unscharf begrenzt,frisch
+YT_409,U-2014-053,32,Gesicht,w,unscharf begrenzt,frisch
+YT_410,U-2014-061,36,Gesicht,m,unscharf begrenzt,frisch
+YT_411,U-2014-062,36,Oberarm,m,unscharf begrenzt,älter
+YT_412,U-2014-064,12,Oberarm,m,unscharf begrenzt,frisch
+YT_413,U-2014-064,12,Oberarm,m,unscharf begrenzt,frisch
+YT_414,U-2014-064,12,Unterarm,m,unscharf begrenzt,älter
+YT_415,U-2014-094,22,Gesicht,w,unscharf begrenzt,frisch
+YT_416,U-2014-094,22,Gesicht,w,unscharf begrenzt,älter
+YT_417,U-2014-095,19,Oberschenkel,w,unscharf begrenzt,frisch
+YT_418,U-2014-098,26,Rücken,w,unscharf begrenzt,frisch
+YT_419,U-2014-098,26,Rücken,w,unscharf begrenzt,frisch
+YT_420,U-2014-098,26,Rücken,w,unscharf begrenzt,frisch
+YT_421,U-2014-098,26,Rücken,w,unscharf begrenzt,frisch
+YT_422,U-2014-098,26,Rücken,w,unscharf begrenzt,frisch
+YT_423,U-2014-098,26,Oberschenkel,w,unscharf begrenzt,frisch
+YT_424,U-2014-098,26,Oberarm,w,unscharf begrenzt,frisch
+YT_425,U-2014-098,26,Ohren,w,unscharf begrenzt,frisch
+YT_426,U-2014-098,26,Ohren,w,unscharf begrenzt,frisch
+YT_427,U-2014-101,15,Unterschenkel,w,unscharf begrenzt,älter
+YT_428,U-2014-117,18,Oberarm,w,Scharf begrenzt,frisch
+YT_429,U-2014-117,18,Oberarm,w,Scharf begrenzt,frisch
+YT_430,U-2014-117,18,Oberarm,w,Scharf begrenzt,frisch
+YT_431,U-2014-123,53,Oberarm,m,unscharf begrenzt,frisch
+YT_432,U-2014-123,53,Oberarm,m,unscharf begrenzt,älter
+YT_433,U-2014-123,53,Oberarm,m,unscharf begrenzt,älter
+YT_434,U-2014-124,50,Oberarm,m,unscharf begrenzt,frisch
+YT_435,U-2014-124,50,Gesicht,m,unscharf begrenzt,frisch
+YT_436,U-2014-124,50,Gesicht,m,unscharf begrenzt,frisch
+YT_437,U-2014-124,50,Ohren,m,unscharf begrenzt,frisch
+YT_438,U-2014-124,50,Oberarm,m,unscharf begrenzt,frisch
+YT_439,U-2014-124,50,Schultern,m,unscharf begrenzt,frisch
+YT_440,U-2014-124,50,Oberarm,m,unscharf begrenzt,frisch
+YT_441,U-2014-124,50,Oberarm,m,unscharf begrenzt,frisch
+YT_442,U-2014-125,53,Oberarm,w,unscharf begrenzt,frisch
+YT_443,U-2014-125,53,Rücken,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_444,U-2014-125,53,Knie,w,Scharf begrenzt,frisch
+YT_445,U-2014-125,53,Brust,w,Scharf begrenzt,frisch
+YT_446,U-2014-125,53,Oberarm,w,"teils scharf, teils unscharf begrenzt",frisch
+YT_447,U-2014-125,53,Unterarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_448,U-2014-125,53,Unterarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_449,U-2014-125,53,Oberarm,w,unscharf begrenzt,frisch
+YT_450,U-2014-125,53,Brust,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_451,U-2014-125,53,Rücken,w,Scharf begrenzt,frisch
+YT_452,U-2014-125,53,Gesicht,w,unscharf begrenzt,frisch
+YT_453,U-2014-125,53,Gesicht,w,unscharf begrenzt,frisch
+YT_454,U-2014-146,7,Oberarm,w,unscharf begrenzt,älter
+YT_455,U-2014-146,7,Oberarm,w,unscharf begrenzt,älter
+YT_456,U-2014-146,7,Oberarm,w,unscharf begrenzt,älter
+YT_457,U-2014-156,50,Oberschenkel,w,unscharf begrenzt,älter
+YT_458,U-2014-156,50,Oberschenkel,w,unscharf begrenzt,frisch
+YT_459,U-2014-156,50,Oberschenkel,w,unscharf begrenzt,frisch
+YT_460,U-2014-156,50,Oberarm,w,Scharf begrenzt,frisch
+YT_461,U-2014-156,50,Gesicht,w,unscharf begrenzt,frisch
+YT_462,U-2014-156,50,Gesicht,w,unscharf begrenzt,frisch
+YT_463,U-2014-156,50,Gesicht,w,unscharf begrenzt,frisch
+YT_464,U-2014-156,50,Gesicht,w,unscharf begrenzt,frisch
+YT_465,U-2014-156,50,Ohren,w,unscharf begrenzt,frisch
+YT_466,U-2014-156,50,Gesicht,w,unscharf begrenzt,frisch
+YT_467,U-2014-172,3 monate,Gesäß,w,unscharf begrenzt,älter
+YT_468,U-2014-172,3 monate,Gesicht,w,unscharf begrenzt,älter
+YT_469,U-2014-172,3 monate,Gesicht,w,unscharf begrenzt,älter
+YT_470,U-2014-172,3 monate,Gesicht,w,unscharf begrenzt,älter
+YT_471,U-2014-172,3 monate,Gesicht,w,unscharf begrenzt,älter
+YT_472,U-2014-172,3 monate,Rücken,w,unscharf begrenzt,älter
+YT_473,U-2014-174,46,Bauch,w,Scharf begrenzt,frisch
+YT_474,U-2014-174,46,Oberarm,w,Scharf begrenzt,frisch
+YT_475,U-2014-174,46,Oberarm,w,Scharf begrenzt,frisch
+YT_476,U-2014-174,46,Bauch,w,Scharf begrenzt,frisch
+YT_477,U-2014-175,3,Gesäß,w,unscharf begrenzt,älter
+YT_478,U-2014-175,3,Oberschenkel,w,unscharf begrenzt,älter
+YT_479,U-2014-175,3,Unterschenkel,w,unscharf begrenzt,älter
+YT_480,U-2014-184,35,Oberarm,m,Scharf begrenzt,frisch
+YT_481,U-2014-184,35,Rücken,m,Scharf begrenzt,frisch
+YT_482,U-2014-184,35,Rücken,m,Scharf begrenzt,frisch
+YT_483,U-2014-184,35,schultern,m,"Teils scharf, teils unscharf begrenzt",frisch
+YT_484,U-2014-184,35,Rücken,m,unscharf begrenzt,frisch
+YT_485,U-2014-184,35,Rücken,m,unscharf begrenzt,frisch
+YT_486,U-2014-184,35,schultern,m,unscharf begrenzt,frisch
+YT_487,U-2014-191,33,Oberarm,w,unscharf begrenzt,frisch
+YT_488,U-2014-191,33,Gesicht,w,unscharf begrenzt,frisch
+YT_489,U-2014-191,33,Oberarm,w,"Teils scharf, teils unscharf begrenzt",frisch
+YT_490,U-2014-198,69,schultern,w,unscharf begrenzt,frisch
+YT_491,U-2014-198,69,Oberarm,w,unscharf begrenzt,frisch
+YT_492,U-2014-198,69,Oberarm,w,unscharf begrenzt,frisch
+YT_493,U-2014-198,69,Oberarm,w,unscharf begrenzt,frisch
+YT_494,U-2014-198,69,schultern,w,unscharf begrenzt,frisch
+YT_495,U-2014-198,69,Oberarm,w,unscharf begrenzt,älter
+YT_496,U-2014-198,69,Oberarm,w,unscharf begrenzt,älter
+YT_497,U-2014-204,18,Hals,w,unscharf begrenzt,frisch
+YT_498,U-2014-204,18,Hals,w,unscharf begrenzt,frisch
+YT_499,U-2014-204,18,Oberarm,w,unscharf begrenzt,älter
+YT_500,U-2014-204,18,Oberarm,w,unscharf begrenzt,älter
+YT_501,U-2014-210,57,Oberschenkel,w,unscharf begrenzt,älter
+YT_502,U-2014-210,57,Unterarm,w,unscharf begrenzt,älter
+YT_503,U-2014-210,57,Unterarm,w,unscharf begrenzt,älter
+YT_504,U-2014-210,57,Unterarm,w,unscharf begrenzt,älter
+YT_505,U-2014-210,57,Oberschenkel,w,unscharf begrenzt,älter
+YT_506,U-2014-211,41,Rücken,w,unscharf begrenzt,frisch
+YT_507,U-2014-211,41,Brust,w,unscharf begrenzt,frisch
+YT_508,U-2014-211,41,Brust,w,unscharf begrenzt,frisch
+YT_509,U-2014-211,41,Brust,w,unscharf begrenzt,frisch
+YT_510,U-2014-212,39,Oberarm,m,unscharf begrenzt,frisch
+YT_511,U-2014-212,39,Gesicht,m,unscharf begrenzt,frisch
+YT_512,U-2014-212,39,Oberarm,m,unscharf begrenzt,älter
+YT_513,U-2014-217,4,Rücken,m,Unscharf begrenzt,älter
+YT_514,U-2014-217,4,Oberschenkel ,m,unscharf begrenzt,älter
+YT_515,U-2014-217,4,Unterschenkel,m,unscharf begrenzt,älter
+YT_516,U-2014-223,3,Rücken,m,unscharf begrenzt,älter
+YT_517,U-2014-223,3,Rücken,m,unscharf begrenzt,älter
+YT_518,U-2015-002,45,Brust,w,unscharf begrenzt,älter
+YT_519,U-2015-002,45,Brust,w,unscharf begrenzt,älter
+YT_520,U-2015-002,45,Oberschenkel,w,unscharf begrenzt,älter
+YT_521,U-2015-002,45,Oberarm,w,unscharf begrenzt,frisch
+YT_522,U-2015-004,22,Oberschenkel,w,unscharf begrenzt,frisch
+YT_523,U-2015-011,24,Unterschenkel,w,unscharf begrenzt,frisch
+YT_524,U-2015-013,29,Gesäß,w,unscharf begrenzt,frisch
+YT_525,U-2015-013,29,Oberarm,w,unscharf begrenzt,älter
+YT_526,U-2015-015,35,Oberschenkel,w,unscharf begrenzt,frisch
+YT_527,U-2015-015,35,Oberschenkel,w,unscharf begrenzt,älter
+YT_528,U-2015-019,41,Oberarm,w,Scharf begrenzt,frisch
+YT_529,U-2015-020,30,Oberarm,w,unscharf begrenzt,älter
+YT_530,U-2015-020,30,Oberschenkel,w,unscharf begrenzt,älter
+YT_531,U-2015-020,30,Gesäß,w,unscharf begrenzt,älter
+YT_532,U-2015-023,43,Unterschenkel,w,unscharf begrenzt,frisch
+YT_533,U-2015-023,43,Gesicht/kinn,w,unscharf begrenzt,frisch
+YT_534,U-2015-023,43,Gesäß,w,unscharf begrenzt,älter
+YT_535,U-2015-023,43,Oberarm,w,unscharf begrenzt,älter
+YT_536,U-2015-023,43,Brust,w,unscharf begrenzt,älter
+YT_537,U-2015-027,63,Unterschenkel,w,unscharf begrenzt,frisch
+YT_538,U-2015-027,63,Brust,w,unscharf begrenzt,frisch
+YT_539,U-2015-027,63,Oberarm,w,unscharf begrenzt,frisch
+YT_540,U-2015-027,63,Brust,w,unscharf begrenzt,älter
+YT_541,U-2015-036,33,Oberschenkel,w,unscharf begrenzt,frisch
+YT_542,U-2015-036,33,Rücken,w,unscharf begrenzt,frisch
+YT_543,U-2015-036,33,Oberarm,w,unscharf begrenzt,frisch
+YT_544,U-2015-058,29,Augen,m,unscharf begrenzt,frisch
+YT_545,U-2015-060,31,Oberarm,w,unscharf begrenzt,frisch
+YT_546,U-2015-060,31,Oberarm,w,unscharf begrenzt,frisch
+YT_547,U-2015-060,31,Oberarm,w,unscharf begrenzt,frisch
+YT_548,U-2015-060,31,Oberschenkel,w,unscharf begrenzt,älter
+YT_549,U-2015-064,23,Augen,m,unscharf begrenzt,frisch
+YT_550,U-2015-064,23,Augen,m,unscharf begrenzt,frisch
+YT_551,U-2015-066,4,Knie,m,unscharf begrenzt,frisch
+YT_552,U-2015-066,4,Unterschenkel,m,unscharf begrenzt,älter
+YT_553,U-2015-066,4,Unterschenkel,m,unscharf begrenzt,älter
+YT_554,U-2015-067,43,Augen,w,unscharf begrenzt,frisch
+YT_555,U-2015-067,43,Ohren,w,unscharf begrenzt,frisch
+YT_556,U-2015-067,43,Unterarm,w,unscharf begrenzt,älter
+YT_557,U-2015-067,43,Gesicht,w,unscharf begrenzt,älter
+YT_558,U-2015-067,43,Gesicht/Kinn,w,unscharf begrenzt,älter
+YT_559,U-2015-067,43,Oberarm,w,unscharf begrenzt,älter
+YT_560,U-2015-067,43,Oberarm,w,unscharf begrenzt,älter
+YT_561,U-2015-070,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_562,U-2015-070,30,Augen,w,unscharf begrenzt,frisch
+YT_563,U-2015-070,30,Oberarm,w,unscharf begrenzt,frisch
+YT_564,U-2015-070,30,Unterarm,w,unscharf begrenzt,frisch
+YT_565,U-2015-070,30,Unterschenkel,w,unscharf begrenzt,frisch
+YT_566,U-2015-077,1,Kopf und hinter Ohren ,m,"teils scharf, teils unscharf begrenzt",frisch
+YT_567,U-2015-077,1,Ohren,m,unscharf begrenzt,frisch
+YT_568,U-2015-078,94,Unterarm,m,unscharf begrenzt,frisch
+YT_569,U-2015-094,45,Gesäß,m,unscharf begrenzt,älter
+YT_570,U-2015-094,45,Brust,m,unscharf begrenzt,älter
+YT_571,U-2015-094,45,Unterarm,m,unscharf begrenzt,älter
+YT_572,U-2015-094,45,Unterarm,m,unscharf begrenzt,älter
+YT_573,U-2015-094,45,Rücken,m,unscharf begrenzt,älter
+YT_574,U-2015-094,45,Unterarm,m,unscharf begrenzt,älter
+YT_575,U-2015-105,43,Gesicht/kinn,w,unscharf begrenzt,frisch
+YT_576,U-2015-105,43,Oberschenkel,w,unscharf begrenzt,frisch
+YT_577,U-2015-105,43,Oberschenkel,w,unscharf begrenzt,frisch
+YT_578,U-2015-105,43,Oberarm,w,unscharf begrenzt,frisch
+YT_579,U-2015-105,43,Rücken,w,unscharf begrenzt,älter
+YT_580,U-2015-105,43,Oberarm,w,unscharf begrenzt,älter
+YT_581,U-2015-108,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_582,U-2015-108,30,Oberarm,w,unscharf begrenzt,frisch
+YT_583,U-2015-108,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_584,U-2015-108,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_585,U-2015-108,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_586,U-2015-108,30,Oberschenkel,w,unscharf begrenzt,frisch
+YT_587,U-2015-111,1,Kopf und hinter Ohren ,m,unscharf begrenzt,frisch
+YaTa_001,U-2015-167,4 Monate,"Gesicht, Kopf und Brust",w,unscharf begrenzt,frisch
+YaTa_002,U-2015-167,4 Monate,Nacken,w,unscharf begrenzt,frisch
+YaTa_003,U-2015-167,4 Monate,Kopf und Auge,w,unscharf begrenzt,frisch
+YaTa_004,U-2015-167,4 Monate,Zunge,w,unscharf begrenzt,frisch
+YaTa_005,U-2015-167,4 Monate,Gesicht und Brust,w,unscharf begrenzt,frisch
+YaTa_006,U-2015-167,4 Monate,Oberarm,w,unscharf begrenzt,frisch
+YaTa_007,U-2015-222,13 Monate,Kopf,m,unscharf begrenzt,älter
+YaTa_008,U-2015-232,6 Monate,Gesäß,m,unscharf begrenzt,älter
+YaTa_009,U-2015-232,6 Monate,Oberschenkel,m,unscharf begrenzt,älter
+YaTa_010,U-2015-242,4 Monate,Rücken,m,unscharf begrenzt,älter
+YaTa_011,U-2015-242,4 Monate,Kopf,m,unscharf begrenzt,älter
+YaTa_012,U-2015-242,4 Monate,Brust,m,unscharf begrenzt,älter
+YaTa_013,U-2015-242,4 Monate,Bauch,m,unscharf begrenzt,älter
+YaTa_014,U-2015-242,4 Monate,Unterarm,m,unscharf begrenzt,älter
+YaTa_015,U-2015-242,4 Monate,Unterarm,m,unscharf begrenzt,älter
+YaTa_016,U-2015-242,4 Monate,Unterarm,m,unscharf begrenzt,älter
+YaTa_017,U-2016-003,7 Monate,Ohren ,m,Unscharf begrenzt,älter
+YaTa_018,U-2016-003,7 Monate,Knie,m,Unscharf begrenzt,älter
+YaTa_019,U-2016-070,3 Monate,Gesicht,w,Scharf begrenzt,frisch
+YaTa_020,U-2016-095,7 Monate,Gesäß,w,unscharf begrenzt,frisch
+YaTa_021,U-2016-095,7 Monate,Gesicht,w,unscharf begrenzt,älter
+YaTa_022,U-2016-095,7 Monate,Gesicht,w,unscharf begrenzt,älter
+YaTa_023,U-2016-221,4 Monate ,Bauch,m,unscharf begrenzt,älter
+YaTa_024,U-2016-221,4 Monate ,Gesicht,m,unscharf begrenzt,älter
+YaTa_025,U-2016-221,4 Monate ,Bauch,m,unscharf begrenzt,älter
+YaTa_026,U-2016-225,2 Monate,Gesäß,m,unscharf begrenzt,frisch
+YaTa_027,U-2016-306,1 Monat,Gesicht,w,unscharf begrenzt,älter
+YaTa_028,U-2016-306,1 Monat,hände,w,unscharf begrenzt,älter
+YaTa_029,U-2016-328,14 Monate,Oberschenkel,m,unscharf begrenzt,älter
+YaTa_030,U-2016-328,14 Monate,Oberschenkel,m,unscharf begrenzt,älter
+YaTa_031,U-2016-349,8 Monate ,Ohren,m,unscharf begrenzt,frisch
+YaTa_032,U-2016-349,8 Monate,Gesicht,m,unscharf begrenzt,älter
+YaTa_033,U-2017-009,5 Monate,Bauch,m,unscharf begrenzt,älter
+YaTa_034,U-2017-011,6 Monate,Gesicht,w,unscharf begrenzt,älter
+YaTa_035,U-2017-045,2,Unterschenkel,w,unscharf begrenzt,älter
+YaTa_036,U-2017-068, 6 Monate,Kopf,m,Geformt,frisch
+YaTa_037,U-2017-087,2,Oberschenkel,w,unscharf begrenzt,älter
+YaTa_038,U-2017-087,2,Kopf,w,unscharf begrenzt,älter
+YaTa_039,U-2017-087,2,Unterarm,w,unscharf begrenzt,älter
+YaTa_040,U-2017-099,2,Unterschenkel,m,unscharf begrenzt,älter
+YaTa_041,U-2017-099,2,Gesicht,m,unscharf begrenzt,älter
+YaTa_042,U-2017-100,6,Rücken,w,Geformt,älter
+YaTa_043,U-2017-147,42,Rücken,m,unscharf begrenzt,frisch
+YaTa_044,U-2017-160,40,Gesäß,w,unscharf begrenzt,frisch
+YaTa_045,U-2017-160,40,Oberschenkel,w,unscharf begrenzt,frisch
+YaTa_046,U-2017-160,40,Gesäß,w,unscharf begrenzt,frisch
+YaTa_047,U-2017-161,18,Oberarm,w,unscharf begrenzt,älter
+YaTa_048,U-2017-170,28,Oberschenkel,w,unscharf begrenzt,frisch
+YaTa_049,U-2017-182,43,Oberarm,w,unscharf begrenzt,frisch
+YaTa_050,U-2017-182,43,Schulter,w,unscharf begrenzt,frisch
+DU_01,23-05313-MU,18,Unterarm,w,Unscharf,frisch
+DU_02,23-05313-MU,18,Unterarm,w,Unscharf,frisch
+DU_03,23-05313-MU,18,Oberschenkel,w,Unscharf,älter
+DU_04,23-05313-MU,18,Füße,w,Unscharf,frisch
+DU_05,23-05314-ML,36,Oberarm,w,Unscharf,älter
+DU_06,23-05314-ML,36,Oberarm,w,Unscharf,frisch
+DU_07,23-05314-ML,36,Oberarm,w,Unscharf,älter
+DU_08,23-03773-MU,28,Gesicht,m,scharf,frisch
+DU_09,23-03071-MU,11,Oberarm,m,Unscharf,frisch
+DU_10,23-02789-MU,3,Gesicht,m,Unscharf,älter
+DU_11,23-02789-MU,3,Bauch,m,Unscharf,älter
+DU_12,23-02788-MU,9,Bauch,w,Unscharf,älter
+DU_13,23-02788-MU,9,Oberschenkel,w,Unscharf,älter
+DU_14,23-02787-MU,10,Oberarm,w,Unscharf,älter
+DU_15,22-08531-MU,13,Gesicht,m,scharf,frisch
+DU_16,22-08531-MU,13,Oberschenkel,m,Unscharf,älter
+DU_17,23-02259-MU,72,Gesicht,m,scharf,frisch
+DU_18,23-03771-MU,47,Gesicht,w,scharf,frisch
+DU_19,23-03771-MU,47,Rücken,w,Unscharf,älter
+DU_20,23-03771-MU,47,Oberarm,w,Unscharf,frisch

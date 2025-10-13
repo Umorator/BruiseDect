@@ -298,20 +298,38 @@ def evaluate_loss(model, data_loader, device):
 
 def _eval_map50(model, data_loader, device):
     """
-    Run tvrefs evaluate and try to extract AP50.
-    Torchvision refs place AP50 at stats[1].
+    Debug version to see what's happening
     """
-    out = tv_evaluate(model, data_loader, device=device)
-    # Try best-effort extraction
+    model.eval()
+    
+    # Test one batch to see predictions
+    with torch.no_grad():
+        for images, targets in data_loader:
+            images = [img.to(device) for img in images]
+            predictions = model(images)
+            
+            print(f"Number of predictions: {len(predictions)}")
+            for i, pred in enumerate(predictions):
+                print(f"Prediction {i}: {len(pred['boxes'])} boxes")
+                if len(pred['boxes']) > 0:
+                    print(f"  Scores: {pred['scores'][:3]}")  # First 3 scores
+                    print(f"  Boxes shape: {pred['boxes'].shape}")
+            break
+    
+    # Then run normal evaluation
     try:
-        stats = out.coco_eval["bbox"].stats  # ndarray len 12
-        return float(stats[1])  # AP50
-    except Exception:
+        out = tv_evaluate(model, data_loader, device=device)
         try:
-            # sometimes the function returns a float already
-            return float(out)
+            stats = out.coco_eval["bbox"].stats
+            return float(stats[1])  # AP50
         except Exception:
-            return 0.0
+            try:
+                return float(out)
+            except Exception:
+                return 0.0
+    except Exception as e:
+        print(f"Evaluation error: {e}")
+        return 0.0
 
 
 # ----------------------------- Trainer -----------------------------
@@ -354,10 +372,10 @@ def train_kfold(cfg: Dict):
     strategy = str(cfg.get("strategy", "strict")).lower()
     strat_cap = strategy.capitalize()
 
-    aug_root = Path(cfg.get("aug_root", r"P:/BruiseDet_Repo/data/augmented"))
+    aug_root = Path(cfg.get("aug_root", r"data/augmented"))
     folds_root = aug_root / strat_cap
 
-    proj_tpl = cfg.get("project_dir", r"P:/BruiseDet_Repo/outputs/training/{strategy}/FRCNN")
+    proj_tpl = cfg.get("project_dir", r"outputs/training/{strategy}/FRCNN")
     out_tpl = cfg.get("out_dir", proj_tpl)
     project_dir = Path(proj_tpl.format(strategy=strat_cap))
     out_dir = Path(out_tpl.format(strategy=strat_cap))

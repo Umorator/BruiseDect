@@ -36,7 +36,7 @@ python -m scripts.train_fasterrcnn --config configs/train_fasterrcnn.json --stra
 python -m scripts.train_retinanet --config configs/train_retinanet.json --strategy strict
 
 # Generate predictions and evaluate
-python -m scripts.predict_yolo --config configs/predict_yolo.json --strategy strict
+python -m scripts.predict_yolov9 --config configs/predict_yolov9.json --strategy strict
 python -m scripts.evaluate_predictions --config configs/evaluate.json
 python -m scripts.plot_pr_curves --eval_root "outputs/eval" --out "outputs/eval/plots"
 ```
@@ -78,7 +78,7 @@ python -m scripts.train_[model] --config configs/train_[model].json --strategy [
 
 ### 4. Prediction & Evaluation
 Generate predictions and comprehensive evaluation metrics:
-- Precision, Recall, F1, IoU, Dice scores
+- Precision, Recall, F1, IoU
 - Average Precision @0.5 IoU
 - Per-fold metrics and aggregated summaries
 - Precision-Recall curves
@@ -87,6 +87,8 @@ Generate predictions and comprehensive evaluation metrics:
 ```bash
 python -m scripts.predict_[model] --config configs/predict_[model].json --strategy [strategy]
 python -m scripts.evaluate_predictions --config configs/evaluate.json
+python -m scripts.plot_PR_and_losses --config configs/evaluate.json --strategy [strategy]
+
 ```
 
 ### 5. Fine-tuning
@@ -95,6 +97,12 @@ Extend training with curated external data:
 - Unfreeze backbone layers and adjust hyperparameters
 - Maintain original validation sets for fair comparison
 
+For augmenting a folder with new data (Roboflow)
+**Usage:**
+```bash
+python -m scripts.augment_finetune --config configs/augment_finetune.json --strategy [strategy]
+```
+For training and fine-tuning
 **Usage:**
 ```bash
 python -m scripts.train_fasterrcnn --config configs/finetune_frcnn.json --strategy [strategy]

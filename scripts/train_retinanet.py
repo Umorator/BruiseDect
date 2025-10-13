@@ -24,6 +24,13 @@ def main():
     p.add_argument("--batch", type=int, default=None)
     p.add_argument("--epochs", type=int, default=None)
     p.add_argument("--device", default=None)
+    # Hyperparameter overrides
+    p.add_argument("--lr", type=float, default=None, help="Learning rate")
+    p.add_argument("--lrf", type=float, default=None, help="Final learning rate factor")
+    p.add_argument("--use_dropout", type=bool, default=None, help="Whether to use dropout in box predictor")
+    p.add_argument("--dropout_prob", type=float, default=None, help="Dropout probability")
+    p.add_argument("--weight_decay", type=float, default=None, help="Weight decay for optimizer")
+    p.add_argument("--resize_number", type=int, default=None, help="Image resize dimension")
     # Add new arguments for fine-tuning
     p.add_argument("--init_from_prev", type=bool, default=None, help="Whether to initialize from previous weights")
     p.add_argument("--prev_weights_template", default=None, help="Template path for previous weights")
@@ -49,6 +56,19 @@ def main():
         cfg["epochs"] = args.epochs
     if args.device is not None:
         cfg["device"] = args.device
+    # Hyperparameter overrides
+    if args.lr is not None:
+        cfg["lr"] = args.lr
+    if args.lrf is not None:
+        cfg["lrf"] = args.lrf
+    if args.use_dropout is not None:
+        cfg["use_dropout"] = args.use_dropout
+    if args.dropout_prob is not None:
+        cfg["dropout_prob"] = args.dropout_prob
+    if args.weight_decay is not None:
+        cfg["weight_decay"] = args.weight_decay
+    if args.resize_number is not None:
+        cfg["resize_number"] = args.resize_number
     # Add new overrides
     if args.init_from_prev is not None:
         cfg["init_from_prev"] = args.init_from_prev

@@ -1,6 +1,6 @@
 {
   "strategies": ["Strict", "Smoothed", "Loose"],
-  "models": ["YOLO", "FRCNN", "RetinaNet"],
+  "models": ["yolov9", "FRCNN", "RetinaNet"],
 
   "aug_root_template": "data/augmented/{strategy}",
   "pred_root_template": "outputs/predictions/{strategy}/{model}",
